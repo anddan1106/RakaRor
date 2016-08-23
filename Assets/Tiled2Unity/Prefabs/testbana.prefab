@@ -23,12 +23,12 @@ GameObject:
   - 23: {fileID: 23000010164545290}
   - 114: {fileID: 114000013454677118}
   - 114: {fileID: 114000012250165714}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: backgroundspritesheet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1000012083086996
 GameObject:
@@ -39,12 +39,12 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000012149167890}
   - 60: {fileID: 60000011750880280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1000012658883294
 GameObject:
@@ -54,12 +54,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011480032964}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tile Layer 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1000013028375936
 GameObject:
@@ -69,12 +69,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011921823634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1000013101945566
 GameObject:
@@ -85,12 +85,12 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000010300716046}
   - 114: {fileID: 114000013720810890}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: testbana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4000010300716046
 Transform:
@@ -99,7 +99,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013101945566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -10.63, y: 6.69, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
