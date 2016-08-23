@@ -1,18 +1,14 @@
 fileFormatVersion: 2
 guid: c2966dba64f9d3446a77bf766cbc98b5
-<<<<<<< HEAD
-timeCreated: 1471949437
-=======
-timeCreated: 1471949033
->>>>>>> 91d67af24366f27b5b53deefea523fae7880ded0
+timeCreated: 1471958230
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: PlayerHead
-    21300002: PlayerSprite_1
-    21300004: PlayerSprite_2
-    21300006: PlayerSprite_3
-    21300008: PlayerSprite_4
+    21300000: Head
+    21300002: RightShoulder
+    21300004: LeftShoulder
+    21300006: LeftFoot
+    21300008: RightFoot
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -62,7 +58,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerHead
+      name: Head
       rect:
         serializedVersion: 2
         x: 0
@@ -75,7 +71,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlayerSprite_1
+      name: RightShoulder
       rect:
         serializedVersion: 2
         x: 64
@@ -88,7 +84,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlayerSprite_2
+      name: LeftShoulder
       rect:
         serializedVersion: 2
         x: 128
@@ -101,7 +97,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlayerSprite_3
+      name: LeftFoot
       rect:
         serializedVersion: 2
         x: 192
@@ -114,7 +110,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PlayerSprite_4
+      name: RightFoot
       rect:
         serializedVersion: 2
         x: 256
