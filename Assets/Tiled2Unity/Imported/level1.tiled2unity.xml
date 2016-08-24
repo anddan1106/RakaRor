@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <!--Tiled2Unity generated xml data-->
 <!--Do not modify by hand-->
-<!--Last exported: 2016-08-24 13:55:17-->
+<!--Last exported: 2016-08-24 14:00:31-->
 <Tiled2Unity version="1.0.7.7">
   <AssignMaterial mesh="mesh_0001" material="floorTiles" />
   <AssignMaterial mesh="mesh_0002" material="thickWalls" />
@@ -343,16 +343,25 @@
       </GameObject>
       <GameObject name="TileObject" x="0.9479828" y="-4.901031" rotation="0" layer="" scaleX="1" scaleY="1">
         <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
           <GameObject name="tile_obj" copy="mesh_tile_0303" sortingLayerName="" sortingOrder="3" x="0" y="1" />
         </GameObject>
       </GameObject>
       <GameObject name="TileObject" x="0.9167328" y="-6.057281" rotation="0" layer="" scaleX="1" scaleY="1">
         <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
           <GameObject name="tile_obj" copy="mesh_tile_0303" sortingLayerName="" sortingOrder="3" x="0" y="1" />
         </GameObject>
       </GameObject>
       <GameObject name="TileObject" x="12.2643442" y="-7.17310953" rotation="-68.7782" layer="" scaleX="1" scaleY="1">
         <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
           <GameObject name="tile_obj" copy="mesh_tile_0303" sortingLayerName="" sortingOrder="3" x="0" y="1" />
         </GameObject>
       </GameObject>
@@ -400,16 +409,25 @@
       </GameObject>
       <GameObject name="TileObject" x="9.852265" y="-1.15383744" rotation="-16.6992" layer="" scaleX="1" scaleY="1">
         <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1">
+            <Path>0,0 1,0 1,-0.9989014 0,-0.9989014</Path>
+          </PolygonCollider2D>
           <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="4" x="0" y="1" />
         </GameObject>
       </GameObject>
       <GameObject name="TileObject" x="3.09898448" y="-10.0185938" rotation="7.00771" layer="" scaleX="1" scaleY="1">
         <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1">
+            <Path>0,0 1,0 1,-0.9989014 0,-0.9989014</Path>
+          </PolygonCollider2D>
           <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="4" x="0" y="1" />
         </GameObject>
       </GameObject>
       <GameObject name="TileObject" x="12.3148594" y="-2.34101558" rotation="-6.38275" layer="" scaleX="1" scaleY="1">
         <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1">
+            <Path>0,0 1,0 1,-0.9989014 0,-0.9989014</Path>
+          </PolygonCollider2D>
           <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="4" x="0" y="1" />
         </GameObject>
       </GameObject>
