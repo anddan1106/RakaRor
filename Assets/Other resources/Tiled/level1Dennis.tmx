@@ -459,10 +459,7 @@
   <object id="61" gid="301" x="731.132" y="677.145" width="64" height="30.5"/>
   <object id="101" gid="302" x="1275.33" y="614" width="519.333" height="64"/>
   <object id="102" gid="302" x="762.457" y="614" width="418.878" height="64"/>
-  <object id="104" gid="302" x="1244" y="692" width="64" height="64"/>
-  <object id="105" gid="301" x="2387.67" y="225.666"/>
-  <object id="106" gid="301" x="59.671" y="340.666"/>
-  <object id="107" gid="301" x="59.671" y="340.666"/>
+  <object id="105" gid="301" x="2387.67" y="225.666" width="64" height="64"/>
   <object id="116" gid="302" x="2942.67" y="475.333" width="64" height="64"/>
   <object id="117" gid="302" x="3005.34" y="475.333" width="64" height="64"/>
   <object id="118" gid="302" x="3061.34" y="475.333" width="64" height="64"/>
@@ -493,7 +490,7 @@
   <object id="172" gid="302" x="2880" y="614" width="64" height="64"/>
   <object id="173" gid="302" x="2878.67" y="474.666" width="64" height="64"/>
  </objectgroup>
- <objectgroup name="Objects" offsetx="-0.666667" offsety="5.33333">
+ <objectgroup name="Objects" visible="0" offsetx="-0.666667" offsety="5.33333">
   <properties>
    <property name="unity:tag" value="object"/>
   </properties>
