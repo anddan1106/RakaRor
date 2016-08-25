@@ -13,8 +13,10 @@ namespace Assets.Scripts
         public float fireDelay = 0.25f;
         float cooldownTimer = 0;
 
+
         void Start()
         {
+            
             bulletLayer = gameObject.layer;
         }
 
@@ -26,6 +28,7 @@ namespace Assets.Scripts
             if (Input.GetButton("Fire1") && cooldownTimer <= 0)
             {
                 // SHOOT!
+
                 cooldownTimer = fireDelay;
 
                 Vector3 offset = transform.rotation * bulletOffset;
