@@ -2165,8 +2165,13 @@ GameObject:
   - 114: {fileID: 114000013916314418}
   - 114: {fileID: 114000013213400832}
   m_Layer: 0
+<<<<<<< HEAD
   m_Name: tile_obj
   m_TagString: Untagged
+=======
+  m_Name: outerThickWalls
+  m_TagString: Wall
+>>>>>>> 4e25f68cd2da17d39a4f6de3cd917a04124d8813
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3872,7 +3877,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011165622470}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -13.251945, y: 3.7610157, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:

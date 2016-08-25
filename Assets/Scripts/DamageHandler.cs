@@ -28,13 +28,24 @@ public class DamageHandler : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D()
+
+
+    void OnTriggerEnter2D(Collider2D obj)
     {
         Debug.Log("Trigger!");
 
-        health--;
-        invulnTimer = invulnPeriod;
-        gameObject.layer = 10;
+        if (obj.gameObject.tag == "Wall")
+        {
+            Debug.Log("Träff på vägg!");
+            Destroy(this);
+            return;
+        }
+        else
+        {
+            health--;
+            invulnTimer = invulnPeriod;
+            gameObject.layer = 10;
+        }
 
     }
 
