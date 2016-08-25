@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sounds/Music/startsong.mp3.meta
 guid: c6bd8fb17f1bc7e459f5a9843d6be599
 timeCreated: 1472134665
+=======
+guid: c81a802100ed93843be27fe1d6486ce5
+timeCreated: 1472135050
+>>>>>>> 2190bbd28cb4b7a8259ec88576f2bfb1f3f211f7:Assets/Sounds/Music/startsong.mp3.meta
 licenseType: Free
 AudioImporter:
   serializedVersion: 6
