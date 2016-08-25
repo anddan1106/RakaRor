@@ -1,0 +1,767 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 2016-08-25 16:44:51-->
+<Tiled2Unity version="1.0.7.7">
+  <AssignMaterial mesh="mesh_0001" material="floorTiles" />
+  <AssignMaterial mesh="mesh_0002" material="objects" />
+  <AssignMaterial mesh="mesh_0003" material="floorTiles" />
+  <AssignMaterial mesh="mesh_0004" material="thickWalls" />
+  <AssignMaterial mesh="mesh_tile_0301" material="thinWalls" />
+  <AssignMaterial mesh="mesh_tile_0302" material="thinWalls" />
+  <AssignMaterial mesh="mesh_tile_0201" material="objects" />
+  <AssignMaterial mesh="mesh_tile_0202" material="objects" />
+  <AssignMaterial mesh="mesh_tile_0203" material="objects" />
+  <AssignMaterial mesh="mesh_tile_0401" material="testBiggerobjects" />
+  <AssignMaterial mesh="mesh_tile_0204" material="objects" />
+  <Prefab name="level1Dennis" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="3" numTilesWide="100" numTilesHigh="100" tileWidth="64" tileHeight="64" exportScale="0.015625" mapWidthInPixels="6400" mapHeightInPixels="6400">
+    <GameObject name="floor" x="2.083328" y="1.16666722" z="0" tag="floor">
+      <GameObject name="floorTiles" copy="mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+    <GameObject name="door" x="2.083328" y="1.16666722" z="0">
+      <GameObject name="objects" copy="mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
+      <GameObject name="floorTiles" copy="mesh_0003" sortingLayerName="" sortingOrder="1" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>44.76563,-6.21875 44.25,-6.21875 44.25,-6.71875 44.76563,-6.71875</Path>
+          <Path>51.76563,-7.21875 51.25,-7.21875 51.25,-7.71875 51.76563,-7.71875</Path>
+          <Path>51.76563,-10.21875 51.25,-10.21875 51.25,-10.71875 51.76563,-10.71875</Path>
+          <Path>46.76563,-10.21875 46.25,-10.21875 46.25,-10.71875 46.76563,-10.71875</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+    <GameObject name="outerThickWalls" x="2.083328" y="1.16666722" z="0" tag="wall">
+      <GameObject name="thickWalls" copy="mesh_0004" sortingLayerName="" sortingOrder="2" opacity="1" />
+      <GameObject name="Collision">
+        <PolygonCollider2D>
+          <Path>44.98438,0 0,0 0,-13.98438 0.984375,-13.98438 0.984375,-1 44.98438,-1</Path>
+          <Path>45.98438,0 45,0 45,-6.984375 45.98438,-6.984375</Path>
+          <Path>46,-8.984375 45,-8.984375 45,-9.984375 46,-9.984375</Path>
+          <Path>44.98438,-9 28,-9 28,-21.98438 29,-21.98438 29,-20.98438 28.98438,-20.98438 28.98438,-10 44.98438,-10</Path>
+          <Path>0,-15 10.98438,-15 10.98438,-14 0,-14</Path>
+          <Path>11.98438,-20.98438 11.98438,-14 11,-14 11,-20.98438</Path>
+          <Path>11,-22 27.98438,-22 27.98438,-21 11,-21</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+    <GameObject name="thinWalls" x="2.08326554" y="1.16665936" z="0" tag="wall">
+      <GameObject name="TileObject" x="8.505203" y="-1.99857807" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="8.505203" y="-3" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="8.505203" y="-4" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="8.505203" y="-5.07292175" rotation="0" layer="" scaleX="1" scaleY="4.18229675">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="4.999125" y="-5.50090647" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="3.99760938" y="-5.50092173" rotation="0" layer="" scaleX="1.00475466" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="3.000547" y="-5.50093746" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="1.99259377" y="-5.500781" rotation="0" layer="" scaleX="1.01019061" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="1.0000062" y="-5.50082827" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="5.99885941" y="-5.500969" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="0.8854844" y="-5.50093746" rotation="0" layer="" scaleX="6.671078" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="6.989922" y="-7.534375" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="2.99423432" y="-7.534453" rotation="0" layer="" scaleX="1.00146568" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="5.98785925" y="-7.53443766" rotation="0" layer="" scaleX="1.00341713" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="7.98825" y="-7.534328" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="3.99370313" y="-7.53431273" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="4.9908123" y="-7.53431273" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="12.9814377" y="-7.534328" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="8.987719" y="-7.534453" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="11.9814215" y="-7.53431273" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="13.9804535" y="-7.534328" rotation="0" layer="" scaleX="1.02083278" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="9.986828" y="-7.53431273" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="10.9844847" y="-7.53431273" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="2.588078" y="-8.113218" rotation="0" layer="" scaleX="1" scaleY="1.00585938">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="2.58873439" y="-9.112687" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="2.58879685" y="-10.1070623" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="2.58835936" y="-10.5818281" rotation="0" layer="" scaleX="1" scaleY="0.4765625">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="2.5786407" y="-12.9999685" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="2.57842183" y="-14.0063286" rotation="0" layer="" scaleX="1" scaleY="1.00679374">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="14.4375" y="-5.00071859" rotation="0" layer="" scaleX="1" scaleY="1.01041722">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="14.4375" y="-1.988875" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="14.4375" y="-3.99029684" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="14.4375" y="-2.99029684" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="11.4241877" y="-8.108406" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="11.4223127" y="-13.0005" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="11.4220934" y="-14.00686" rotation="0" layer="" scaleX="1" scaleY="1.00679374">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="11.4243126" y="-9.106984" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="11.4243746" y="-10.1056252" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="11.4239378" y="-10.5803909" rotation="0" layer="" scaleX="1" scaleY="0.4765625">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="19.92703" y="-9.59375" rotation="0" layer="" scaleX="8.114578" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="11.91339" y="-9.59375" rotation="0" layer="" scaleX="6.54496861" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="45.9792175" y="-7.42707825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="46.95844" y="-7.42707825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="47.83344" y="-7.42707825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="48.77094" y="-7.42707825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="49.75" y="-7.42707825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="50.65625" y="-7.42707825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="50.98969" y="-7.42707825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="51.5729675" y="-7.86457825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="51.5729675" y="-7.8125" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="51.5729675" y="-8.8125" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="51.5729675" y="-9.63540649" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="51.5729675" y="-10.53125" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="51.5729675" y="-11" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="51.1667175" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="50.4375" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="49.90625" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="49.5104675" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="48.80219" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="48.34375" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="47.9792175" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="47.2292175" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="47.1042175" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="46.71875" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="46.0417175" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="46" y="-11.5" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="45.42719" y="-10.9166565" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="45.42719" y="-11.09375" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.40625" offsetY="1">
+            <Path>0,0 0.1707764,0 0.1707764,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0301" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="45" y="-9.59375" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="44.9792175" y="-7.416656" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="-0.00109863281" offsetY="0.59375">
+            <Path>0,0 1.001099,0 1.001099,-0.1707764 0,-0.1707764</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0302" sortingLayerName="" sortingOrder="3" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+    </GameObject>
+    <GameObject name="Objects" x="-0.0104166716" y="-0.08333328" z="0" tag="object">
+      <GameObject name="TileObject" x="13.373703" y="-1.41949689" rotation="25.8469" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1.00109863">
+            <Path>0,0 1,0 1,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0201" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="12.1292973" y="-1.24529839" rotation="-16.3104" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1.00109863">
+            <Path>0,0 1,0 1,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0201" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="4.18459368" y="-12.7483749" rotation="-43.0762" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1.00109863">
+            <Path>0,0 1,0 1,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0201" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="8.374625" y="-0.8886844" rotation="10.6384" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1.00109863">
+            <Path>0,0 1,0 1,-1.001099 0,-1.001099</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0201" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="9.852265" y="-1.15383744" rotation="-16.6992" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1">
+            <Path>0,0 1,0 1,-0.9989014 0,-0.9989014</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0202" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="3.13023448" y="-11.2165155" rotation="7.00771" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1">
+            <Path>0,0 1,0 1,-0.9989014 0,-0.9989014</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0202" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="12.3148594" y="-2.34101558" rotation="-6.38275" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0" offsetY="1">
+            <Path>0,0 1,0 1,-0.9989014 0,-0.9989014</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0202" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="13.4479218" y="-5.82292175" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0203" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="3.041672" y="-3.635422" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0203" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="3.088547" y="-5.75260925" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0203" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="5.19792175" y="-6.85417175" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0203" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="12.8854218" y="-12.8229218" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0203" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="6.07292175" y="-6.89582825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.00335693359" offsetY="0.9998169">
+            <Path>0,0 3.014404,0 3.014404,-0.99646 0,-0.99646</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0401" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="10.0520782" y="-6.88542175" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.00335693359" offsetY="0.9998169">
+            <Path>0,0 3.014404,0 3.014404,-0.99646 0,-0.99646</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0401" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="13" y="-6.82292175" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0203" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="12.9702969" y="-11.7025785" rotation="-179.822" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.00335693359" offsetY="0.9998169">
+            <Path>0,0 3.014404,0 3.014404,-0.99646 0,-0.99646</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0401" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="9.073328" y="-11.6887188" rotation="-179.954" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.00335693359" offsetY="0.9998169">
+            <Path>0,0 3.014404,0 3.014404,-0.99646 0,-0.99646</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0401" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="5.125" y="-12.8229218" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <PolygonCollider2D offsetX="0.2633667" offsetY="0.770080566">
+            <Path>0,0 0.5167236,0 0.5167236,-0.4888306 0,-0.4888306</Path>
+          </PolygonCollider2D>
+          <GameObject name="tile_obj" copy="mesh_tile_0203" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+      <GameObject name="TileObject" x="52.9479675" y="-7.83332825" rotation="0" layer="" scaleX="1" scaleY="1">
+        <GameObject name="TileObject">
+          <GameObject name="tile_obj" copy="mesh_tile_0204" sortingLayerName="" sortingOrder="4" x="0" y="1" />
+        </GameObject>
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="level1Dennis.obj">IyBXYXZlZnJvbnQgT0JKIGZpbGUgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQgYnkgVGlsZWQyVW5pdHkNCg0KIyBWZXJ0aWNlcyAoQ291bnQgPSA4MzEpDQp2IC0xIC0yIDANCnYgLTIgLTIgMA0KdiAtMiAtMSAwDQp2IC0xIC0xIDANCnYgLTMgLTIgMA0KdiAtMyAtMSAwDQp2IC00IC0yIDANCnYgLTQgLTEgMA0KdiAtNSAtMiAwDQp2IC01IC0xIDANCnYgLTYgLTIgMA0KdiAtNiAtMSAwDQp2IC03IC0yIDANCnYgLTcgLTEgMA0KdiAtOCAtMiAwDQp2IC04IC0xIDANCnYgLTkgLTIgMA0KdiAtOSAtMSAwDQp2IC0xMCAtMiAwDQp2IC0xMCAtMSAwDQp2IC0xMSAtMiAwDQp2IC0xMSAtMSAwDQp2IC0xMiAtMiAwDQp2IC0xMiAtMSAwDQp2IC0xMyAtMiAwDQp2IC0xMyAtMSAwDQp2IC0xNCAtMiAwDQp2IC0xNCAtMSAwDQp2IC0xNSAtMiAwDQp2IC0xNSAtMSAwDQp2IC0xNiAtMiAwDQp2IC0xNiAtMSAwDQp2IC0xNyAtMiAwDQp2IC0xNyAtMSAwDQp2IC0xOCAtMiAwDQp2IC0xOCAtMSAwDQp2IC0xOSAtMiAwDQp2IC0xOSAtMSAwDQp2IC0yMCAtMiAwDQp2IC0yMCAtMSAwDQp2IC0yMSAtMiAwDQp2IC0yMSAtMSAwDQp2IC0yMiAtMiAwDQp2IC0yMiAtMSAwDQp2IC0yMyAtMiAwDQp2IC0yMyAtMSAwDQp2IC0yNCAtMiAwDQp2IC0yNCAtMSAwDQp2IC0yNSAtMiAwDQp2IC0yNSAtMSAwDQp2IC0yNiAtMiAwDQp2IC0yNiAtMSAwDQp2IC0yNyAtMiAwDQp2IC0yNyAtMSAwDQp2IC0yOCAtMiAwDQp2IC0yOCAtMSAwDQp2IC0yOSAtMiAwDQp2IC0yOSAtMSAwDQp2IC0zMCAtMiAwDQp2IC0zMCAtMSAwDQp2IC0zMSAtMiAwDQp2IC0zMSAtMSAwDQp2IC0zMiAtMiAwDQp2IC0zMiAtMSAwDQp2IC0zMyAtMiAwDQp2IC0zMyAtMSAwDQp2IC0zNCAtMiAwDQp2IC0zNCAtMSAwDQp2IC0zNSAtMiAwDQp2IC0zNSAtMSAwDQp2IC0zNiAtMiAwDQp2IC0zNiAtMSAwDQp2IC0zNyAtMiAwDQp2IC0zNyAtMSAwDQp2IC0zOCAtMiAwDQp2IC0zOCAtMSAwDQp2IC0zOSAtMiAwDQp2IC0zOSAtMSAwDQp2IC00MCAtMiAwDQp2IC00MCAtMSAwDQp2IC00MSAtMiAwDQp2IC00MSAtMSAwDQp2IC00MiAtMiAwDQp2IC00MiAtMSAwDQp2IC00MyAtMiAwDQp2IC00MyAtMSAwDQp2IC00NCAtMiAwDQp2IC00NCAtMSAwDQp2IC00NSAtMiAwDQp2IC00NSAtMSAwDQp2IC0xIC0zIDANCnYgLTIgLTMgMA0KdiAtMyAtMyAwDQp2IC00IC0zIDANCnYgLTUgLTMgMA0KdiAtNiAtMyAwDQp2IC03IC0zIDANCnYgLTggLTMgMA0KdiAtOSAtMyAwDQp2IC0xMCAtMyAwDQp2IC0xMSAtMyAwDQp2IC0xMiAtMyAwDQp2IC0xMyAtMyAwDQp2IC0xNCAtMyAwDQp2IC0xNSAtMyAwDQp2IC0xNiAtMyAwDQp2IC0xNyAtMyAwDQp2IC0xOCAtMyAwDQp2IC0xOSAtMyAwDQp2IC0yMCAtMyAwDQp2IC0yMSAtMyAwDQp2IC0yMiAtMyAwDQp2IC0yMyAtMyAwDQp2IC0yNCAtMyAwDQp2IC0yNSAtMyAwDQp2IC0yNiAtMyAwDQp2IC0yNyAtMyAwDQp2IC0yOCAtMyAwDQp2IC0yOSAtMyAwDQp2IC0zMCAtMyAwDQp2IC0zMSAtMyAwDQp2IC0zMiAtMyAwDQp2IC0zMyAtMyAwDQp2IC0zNCAtMyAwDQp2IC0zNSAtMyAwDQp2IC0zNiAtMyAwDQp2IC0zNyAtMyAwDQp2IC0zOCAtMyAwDQp2IC0zOSAtMyAwDQp2IC00MCAtMyAwDQp2IC00MSAtMyAwDQp2IC00MiAtMyAwDQp2IC00MyAtMyAwDQp2IC00NCAtMyAwDQp2IC00NSAtMyAwDQp2IC0xIC00IDANCnYgLTIgLTQgMA0KdiAtMyAtNCAwDQp2IC00IC00IDANCnYgLTUgLTQgMA0KdiAtNiAtNCAwDQp2IC03IC00IDANCnYgLTggLTQgMA0KdiAtOSAtNCAwDQp2IC0xMCAtNCAwDQp2IC0xMSAtNCAwDQp2IC0xMiAtNCAwDQp2IC0xMyAtNCAwDQp2IC0xNCAtNCAwDQp2IC0xNSAtNCAwDQp2IC0xNiAtNCAwDQp2IC0xNyAtNCAwDQp2IC0xOCAtNCAwDQp2IC0xOSAtNCAwDQp2IC0yMCAtNCAwDQp2IC0yMSAtNCAwDQp2IC0yMiAtNCAwDQp2IC0yMyAtNCAwDQp2IC0yNCAtNCAwDQp2IC0yNSAtNCAwDQp2IC0yNiAtNCAwDQp2IC0yNyAtNCAwDQp2IC0yOCAtNCAwDQp2IC0yOSAtNCAwDQp2IC0zMCAtNCAwDQp2IC0zMSAtNCAwDQp2IC0zMiAtNCAwDQp2IC0zMyAtNCAwDQp2IC0zNCAtNCAwDQp2IC0zNSAtNCAwDQp2IC0zNiAtNCAwDQp2IC0zNyAtNCAwDQp2IC0zOCAtNCAwDQp2IC0zOSAtNCAwDQp2IC00MCAtNCAwDQp2IC00MSAtNCAwDQp2IC00MiAtNCAwDQp2IC00MyAtNCAwDQp2IC00NCAtNCAwDQp2IC00NSAtNCAwDQp2IC0xIC01IDANCnYgLTIgLTUgMA0KdiAtMyAtNSAwDQp2IC00IC01IDANCnYgLTUgLTUgMA0KdiAtNiAtNSAwDQp2IC03IC01IDANCnYgLTggLTUgMA0KdiAtOSAtNSAwDQp2IC0xMCAtNSAwDQp2IC0xMSAtNSAwDQp2IC0xMiAtNSAwDQp2IC0xMyAtNSAwDQp2IC0xNCAtNSAwDQp2IC0xNSAtNSAwDQp2IC0xNiAtNSAwDQp2IC0xNyAtNSAwDQp2IC0xOCAtNSAwDQp2IC0xOSAtNSAwDQp2IC0yMCAtNSAwDQp2IC0yMSAtNSAwDQp2IC0yMiAtNSAwDQp2IC0yMyAtNSAwDQp2IC0yNCAtNSAwDQp2IC0yNSAtNSAwDQp2IC0yNiAtNSAwDQp2IC0yNyAtNSAwDQp2IC0yOCAtNSAwDQp2IC0yOSAtNSAwDQp2IC0zMCAtNSAwDQp2IC0zMSAtNSAwDQp2IC0zMiAtNSAwDQp2IC0zMyAtNSAwDQp2IC0zNCAtNSAwDQp2IC0zNSAtNSAwDQp2IC0zNiAtNSAwDQp2IC0zNyAtNSAwDQp2IC0zOCAtNSAwDQp2IC0zOSAtNSAwDQp2IC00MCAtNSAwDQp2IC00MSAtNSAwDQp2IC00MiAtNSAwDQp2IC00MyAtNSAwDQp2IC00NCAtNSAwDQp2IC00NSAtNSAwDQp2IC0xIC02IDANCnYgLTIgLTYgMA0KdiAtMyAtNiAwDQp2IC00IC02IDANCnYgLTUgLTYgMA0KdiAtNiAtNiAwDQp2IC03IC02IDANCnYgLTggLTYgMA0KdiAtOSAtNiAwDQp2IC0xMCAtNiAwDQp2IC0xMSAtNiAwDQp2IC0xMiAtNiAwDQp2IC0xMyAtNiAwDQp2IC0xNCAtNiAwDQp2IC0xNSAtNiAwDQp2IC0xNiAtNiAwDQp2IC0xNyAtNiAwDQp2IC0xOCAtNiAwDQp2IC0xOSAtNiAwDQp2IC0yMCAtNiAwDQp2IC0yMSAtNiAwDQp2IC0yMiAtNiAwDQp2IC0yMyAtNiAwDQp2IC0yNCAtNiAwDQp2IC0yNSAtNiAwDQp2IC0yNiAtNiAwDQp2IC0yNyAtNiAwDQp2IC0yOCAtNiAwDQp2IC0yOSAtNiAwDQp2IC0zMCAtNiAwDQp2IC0zMSAtNiAwDQp2IC0zMiAtNiAwDQp2IC0zMyAtNiAwDQp2IC0zNCAtNiAwDQp2IC0zNSAtNiAwDQp2IC0zNiAtNiAwDQp2IC0zNyAtNiAwDQp2IC0zOCAtNiAwDQp2IC0zOSAtNiAwDQp2IC00MCAtNiAwDQp2IC00MSAtNiAwDQp2IC00MiAtNiAwDQp2IC00MyAtNiAwDQp2IC00NCAtNiAwDQp2IC00NSAtNiAwDQp2IC0xIC03IDANCnYgLTIgLTcgMA0KdiAtMyAtNyAwDQp2IC00IC03IDANCnYgLTUgLTcgMA0KdiAtNiAtNyAwDQp2IC03IC03IDANCnYgLTggLTcgMA0KdiAtOSAtNyAwDQp2IC0xMCAtNyAwDQp2IC0xMSAtNyAwDQp2IC0xMiAtNyAwDQp2IC0xMyAtNyAwDQp2IC0xNCAtNyAwDQp2IC0xNSAtNyAwDQp2IC0xNiAtNyAwDQp2IC0xNyAtNyAwDQp2IC0xOCAtNyAwDQp2IC0xOSAtNyAwDQp2IC0yMCAtNyAwDQp2IC0yMSAtNyAwDQp2IC0yMiAtNyAwDQp2IC0yMyAtNyAwDQp2IC0yNCAtNyAwDQp2IC0yNSAtNyAwDQp2IC0yNiAtNyAwDQp2IC0yNyAtNyAwDQp2IC0yOCAtNyAwDQp2IC0yOSAtNyAwDQp2IC0zMCAtNyAwDQp2IC0zMSAtNyAwDQp2IC0zMiAtNyAwDQp2IC0zMyAtNyAwDQp2IC0zNCAtNyAwDQp2IC0zNSAtNyAwDQp2IC0zNiAtNyAwDQp2IC0zNyAtNyAwDQp2IC0zOCAtNyAwDQp2IC0zOSAtNyAwDQp2IC00MCAtNyAwDQp2IC00MSAtNyAwDQp2IC00MiAtNyAwDQp2IC00MyAtNyAwDQp2IC00NCAtNyAwDQp2IC00NSAtNyAwDQp2IC0xIC04IDANCnYgLTIgLTggMA0KdiAtMyAtOCAwDQp2IC00IC04IDANCnYgLTUgLTggMA0KdiAtNiAtOCAwDQp2IC03IC04IDANCnYgLTggLTggMA0KdiAtOSAtOCAwDQp2IC0xMCAtOCAwDQp2IC0xMSAtOCAwDQp2IC0xMiAtOCAwDQp2IC0xMyAtOCAwDQp2IC0xNCAtOCAwDQp2IC0xNSAtOCAwDQp2IC0xNiAtOCAwDQp2IC0xNyAtOCAwDQp2IC0xOCAtOCAwDQp2IC0xOSAtOCAwDQp2IC0yMCAtOCAwDQp2IC0yMSAtOCAwDQp2IC0yMiAtOCAwDQp2IC0yMyAtOCAwDQp2IC0yNCAtOCAwDQp2IC0yNSAtOCAwDQp2IC0yNiAtOCAwDQp2IC0yNyAtOCAwDQp2IC0yOCAtOCAwDQp2IC0yOSAtOCAwDQp2IC0zMCAtOCAwDQp2IC0zMSAtOCAwDQp2IC0zMiAtOCAwDQp2IC0zMyAtOCAwDQp2IC0zNCAtOCAwDQp2IC0zNSAtOCAwDQp2IC0zNiAtOCAwDQp2IC0zNyAtOCAwDQp2IC0zOCAtOCAwDQp2IC0zOSAtOCAwDQp2IC00MCAtOCAwDQp2IC00MSAtOCAwDQp2IC00MiAtOCAwDQp2IC00MyAtOCAwDQp2IC00NCAtOCAwDQp2IC00NSAtOCAwDQp2IC00NiAtOCAwDQp2IC00NiAtNyAwDQp2IC00NyAtOCAwDQp2IC00NyAtNyAwDQp2IC00OCAtOCAwDQp2IC00OCAtNyAwDQp2IC00OSAtOCAwDQp2IC00OSAtNyAwDQp2IC01MCAtOCAwDQp2IC01MCAtNyAwDQp2IC01MSAtOCAwDQp2IC01MSAtNyAwDQp2IC01MiAtOCAwDQp2IC01MiAtNyAwDQp2IC0xIC05IDANCnYgLTIgLTkgMA0KdiAtMyAtOSAwDQp2IC00IC05IDANCnYgLTUgLTkgMA0KdiAtNiAtOSAwDQp2IC03IC05IDANCnYgLTggLTkgMA0KdiAtOSAtOSAwDQp2IC0xMCAtOSAwDQp2IC0xMSAtOSAwDQp2IC0xMiAtOSAwDQp2IC0xMyAtOSAwDQp2IC0xNCAtOSAwDQp2IC0xNSAtOSAwDQp2IC0xNiAtOSAwDQp2IC0xNyAtOSAwDQp2IC0xOCAtOSAwDQp2IC0xOSAtOSAwDQp2IC0yMCAtOSAwDQp2IC0yMSAtOSAwDQp2IC0yMiAtOSAwDQp2IC0yMyAtOSAwDQp2IC0yNCAtOSAwDQp2IC0yNSAtOSAwDQp2IC0yNiAtOSAwDQp2IC0yNyAtOSAwDQp2IC0yOCAtOSAwDQp2IC0yOSAtOSAwDQp2IC0zMCAtOSAwDQp2IC0zMSAtOSAwDQp2IC0zMiAtOSAwDQp2IC0zMyAtOSAwDQp2IC0zNCAtOSAwDQp2IC0zNSAtOSAwDQp2IC0zNiAtOSAwDQp2IC0zNyAtOSAwDQp2IC0zOCAtOSAwDQp2IC0zOSAtOSAwDQp2IC00MCAtOSAwDQp2IC00MSAtOSAwDQp2IC00MiAtOSAwDQp2IC00MyAtOSAwDQp2IC00NCAtOSAwDQp2IC00NSAtOSAwDQp2IC00NiAtOSAwDQp2IC00NyAtOSAwDQp2IC00OCAtOSAwDQp2IC00OSAtOSAwDQp2IC01MCAtOSAwDQp2IC01MSAtOSAwDQp2IC01MiAtOSAwDQp2IC0xIC0xMCAwDQp2IC0yIC0xMCAwDQp2IC0zIC0xMCAwDQp2IC00IC0xMCAwDQp2IC01IC0xMCAwDQp2IC02IC0xMCAwDQp2IC03IC0xMCAwDQp2IC04IC0xMCAwDQp2IC05IC0xMCAwDQp2IC0xMCAtMTAgMA0KdiAtMTEgLTEwIDANCnYgLTEyIC0xMCAwDQp2IC0xMyAtMTAgMA0KdiAtMTQgLTEwIDANCnYgLTE1IC0xMCAwDQp2IC0xNiAtMTAgMA0KdiAtMTcgLTEwIDANCnYgLTE4IC0xMCAwDQp2IC0xOSAtMTAgMA0KdiAtMjAgLTEwIDANCnYgLTIxIC0xMCAwDQp2IC0yMiAtMTAgMA0KdiAtMjMgLTEwIDANCnYgLTI0IC0xMCAwDQp2IC0yNSAtMTAgMA0KdiAtMjYgLTEwIDANCnYgLTI3IC0xMCAwDQp2IC0yOCAtMTAgMA0KdiAtMzkgLTEwIDANCnYgLTQwIC0xMCAwDQp2IC00MSAtMTAgMA0KdiAtNDYgLTEwIDANCnYgLTQ3IC0xMCAwDQp2IC00OCAtMTAgMA0KdiAtNDkgLTEwIDANCnYgLTUwIC0xMCAwDQp2IC01MSAtMTAgMA0KdiAtNTIgLTEwIDANCnYgLTEgLTExIDANCnYgLTIgLTExIDANCnYgLTMgLTExIDANCnYgLTQgLTExIDANCnYgLTUgLTExIDANCnYgLTYgLTExIDANCnYgLTcgLTExIDANCnYgLTggLTExIDANCnYgLTkgLTExIDANCnYgLTEwIC0xMSAwDQp2IC0xMSAtMTEgMA0KdiAtMTIgLTExIDANCnYgLTEzIC0xMSAwDQp2IC0xNCAtMTEgMA0KdiAtMTUgLTExIDANCnYgLTE2IC0xMSAwDQp2IC0xNyAtMTEgMA0KdiAtMTggLTExIDANCnYgLTE5IC0xMSAwDQp2IC0yMCAtMTEgMA0KdiAtMjEgLTExIDANCnYgLTIyIC0xMSAwDQp2IC0yMyAtMTEgMA0KdiAtMjQgLTExIDANCnYgLTI1IC0xMSAwDQp2IC0yNiAtMTEgMA0KdiAtMjcgLTExIDANCnYgLTI4IC0xMSAwDQp2IC00NiAtMTEgMA0KdiAtNDcgLTExIDANCnYgLTQ4IC0xMSAwDQp2IC00OSAtMTEgMA0KdiAtNTAgLTExIDANCnYgLTUxIC0xMSAwDQp2IC01MiAtMTEgMA0KdiAtMSAtMTIgMA0KdiAtMiAtMTIgMA0KdiAtMyAtMTIgMA0KdiAtNCAtMTIgMA0KdiAtNSAtMTIgMA0KdiAtNiAtMTIgMA0KdiAtNyAtMTIgMA0KdiAtOCAtMTIgMA0KdiAtOSAtMTIgMA0KdiAtMTAgLTEyIDANCnYgLTExIC0xMiAwDQp2IC0xMiAtMTIgMA0KdiAtMTMgLTEyIDANCnYgLTE0IC0xMiAwDQp2IC0xNSAtMTIgMA0KdiAtMTYgLTEyIDANCnYgLTE3IC0xMiAwDQp2IC0xOCAtMTIgMA0KdiAtMTkgLTEyIDANCnYgLTIwIC0xMiAwDQp2IC0yMSAtMTIgMA0KdiAtMjIgLTEyIDANCnYgLTIzIC0xMiAwDQp2IC0yNCAtMTIgMA0KdiAtMjUgLTEyIDANCnYgLTI2IC0xMiAwDQp2IC0yNyAtMTIgMA0KdiAtMjggLTEyIDANCnYgLTEgLTEzIDANCnYgLTIgLTEzIDANCnYgLTMgLTEzIDANCnYgLTQgLTEzIDANCnYgLTUgLTEzIDANCnYgLTYgLTEzIDANCnYgLTcgLTEzIDANCnYgLTggLTEzIDANCnYgLTkgLTEzIDANCnYgLTEwIC0xMyAwDQp2IC0xMSAtMTMgMA0KdiAtMTIgLTEzIDANCnYgLTEzIC0xMyAwDQp2IC0xNCAtMTMgMA0KdiAtMTUgLTEzIDANCnYgLTE2IC0xMyAwDQp2IC0xNyAtMTMgMA0KdiAtMTggLTEzIDANCnYgLTE5IC0xMyAwDQp2IC0yMCAtMTMgMA0KdiAtMjEgLTEzIDANCnYgLTIyIC0xMyAwDQp2IC0yMyAtMTMgMA0KdiAtMjQgLTEzIDANCnYgLTI1IC0xMyAwDQp2IC0yNiAtMTMgMA0KdiAtMjcgLTEzIDANCnYgLTI4IC0xMyAwDQp2IC0xIC0xNCAwDQp2IC0yIC0xNCAwDQp2IC0zIC0xNCAwDQp2IC00IC0xNCAwDQp2IC01IC0xNCAwDQp2IC02IC0xNCAwDQp2IC03IC0xNCAwDQp2IC04IC0xNCAwDQp2IC05IC0xNCAwDQp2IC0xMCAtMTQgMA0KdiAtMTEgLTE0IDANCnYgLTEyIC0xNCAwDQp2IC0xMyAtMTQgMA0KdiAtMTQgLTE0IDANCnYgLTE1IC0xNCAwDQp2IC0xNiAtMTQgMA0KdiAtMTcgLTE0IDANCnYgLTE4IC0xNCAwDQp2IC0xOSAtMTQgMA0KdiAtMjAgLTE0IDANCnYgLTIxIC0xNCAwDQp2IC0yMiAtMTQgMA0KdiAtMjMgLTE0IDANCnYgLTI0IC0xNCAwDQp2IC0yNSAtMTQgMA0KdiAtMjYgLTE0IDANCnYgLTI3IC0xNCAwDQp2IC0yOCAtMTQgMA0KdiAtMTIgLTE1IDANCnYgLTEzIC0xNSAwDQp2IC0xNCAtMTUgMA0KdiAtMTUgLTE1IDANCnYgLTE2IC0xNSAwDQp2IC0xNyAtMTUgMA0KdiAtMTggLTE1IDANCnYgLTE5IC0xNSAwDQp2IC0yMCAtMTUgMA0KdiAtMjEgLTE1IDANCnYgLTIyIC0xNSAwDQp2IC0yMyAtMTUgMA0KdiAtMjQgLTE1IDANCnYgLTI1IC0xNSAwDQp2IC0yNiAtMTUgMA0KdiAtMjcgLTE1IDANCnYgLTI4IC0xNSAwDQp2IC0xMiAtMTYgMA0KdiAtMTMgLTE2IDANCnYgLTE0IC0xNiAwDQp2IC0xNSAtMTYgMA0KdiAtMTYgLTE2IDANCnYgLTE3IC0xNiAwDQp2IC0xOCAtMTYgMA0KdiAtMTkgLTE2IDANCnYgLTIwIC0xNiAwDQp2IC0yMSAtMTYgMA0KdiAtMjIgLTE2IDANCnYgLTIzIC0xNiAwDQp2IC0yNCAtMTYgMA0KdiAtMjUgLTE2IDANCnYgLTI2IC0xNiAwDQp2IC0yNyAtMTYgMA0KdiAtMjggLTE2IDANCnYgLTEyIC0xNyAwDQp2IC0xMyAtMTcgMA0KdiAtMTQgLTE3IDANCnYgLTE1IC0xNyAwDQp2IC0xNiAtMTcgMA0KdiAtMTcgLTE3IDANCnYgLTE4IC0xNyAwDQp2IC0xOSAtMTcgMA0KdiAtMjAgLTE3IDANCnYgLTIxIC0xNyAwDQp2IC0yMiAtMTcgMA0KdiAtMjMgLTE3IDANCnYgLTI0IC0xNyAwDQp2IC0yNSAtMTcgMA0KdiAtMjYgLTE3IDANCnYgLTI3IC0xNyAwDQp2IC0yOCAtMTcgMA0KdiAtMTIgLTE4IDANCnYgLTEzIC0xOCAwDQp2IC0xNCAtMTggMA0KdiAtMTUgLTE4IDANCnYgLTE2IC0xOCAwDQp2IC0xNyAtMTggMA0KdiAtMTggLTE4IDANCnYgLTE5IC0xOCAwDQp2IC0yMCAtMTggMA0KdiAtMjEgLTE4IDANCnYgLTIyIC0xOCAwDQp2IC0yMyAtMTggMA0KdiAtMjQgLTE4IDANCnYgLTI1IC0xOCAwDQp2IC0yNiAtMTggMA0KdiAtMjcgLTE4IDANCnYgLTI4IC0xOCAwDQp2IC0xMiAtMTkgMA0KdiAtMTMgLTE5IDANCnYgLTE0IC0xOSAwDQp2IC0xNSAtMTkgMA0KdiAtMTYgLTE5IDANCnYgLTE3IC0xOSAwDQp2IC0xOCAtMTkgMA0KdiAtMTkgLTE5IDANCnYgLTIwIC0xOSAwDQp2IC0yMSAtMTkgMA0KdiAtMjIgLTE5IDANCnYgLTIzIC0xOSAwDQp2IC0yNCAtMTkgMA0KdiAtMjUgLTE5IDANCnYgLTI2IC0xOSAwDQp2IC0yNyAtMTkgMA0KdiAtMjggLTE5IDANCnYgLTEyIC0yMCAwDQp2IC0xMyAtMjAgMA0KdiAtMTQgLTIwIDANCnYgLTE1IC0yMCAwDQp2IC0xNiAtMjAgMA0KdiAtMTcgLTIwIDANCnYgLTE4IC0yMCAwDQp2IC0xOSAtMjAgMA0KdiAtMjAgLTIwIDANCnYgLTIxIC0yMCAwDQp2IC0yMiAtMjAgMA0KdiAtMjMgLTIwIDANCnYgLTI0IC0yMCAwDQp2IC0yNSAtMjAgMA0KdiAtMjYgLTIwIDANCnYgLTI3IC0yMCAwDQp2IC0yOCAtMjAgMA0KdiAtMTIgLTIxIDANCnYgLTEzIC0yMSAwDQp2IC0xNCAtMjEgMA0KdiAtMTUgLTIxIDANCnYgLTE2IC0yMSAwDQp2IC0xNyAtMjEgMA0KdiAtMTggLTIxIDANCnYgLTE5IC0yMSAwDQp2IC0yMCAtMjEgMA0KdiAtMjEgLTIxIDANCnYgLTIyIC0yMSAwDQp2IC0yMyAtMjEgMA0KdiAtMjQgLTIxIDANCnYgLTI1IC0yMSAwDQp2IC0yNiAtMjEgMA0KdiAtMjcgLTIxIDANCnYgLTI4IC0yMSAwDQp2IDAgLTEgMA0KdiAtMSAwIDANCnYgMCAwIDANCnYgLTIgMCAwDQp2IC0zIDAgMA0KdiAtNCAwIDANCnYgLTUgMCAwDQp2IC02IDAgMA0KdiAtNyAwIDANCnYgLTggMCAwDQp2IC05IDAgMA0KdiAtMTAgMCAwDQp2IC0xMSAwIDANCnYgLTEyIDAgMA0KdiAtMTMgMCAwDQp2IC0xNCAwIDANCnYgLTE1IDAgMA0KdiAtMTYgMCAwDQp2IC0xNyAwIDANCnYgLTE4IDAgMA0KdiAtMTkgMCAwDQp2IC0yMCAwIDANCnYgLTIxIDAgMA0KdiAtMjIgMCAwDQp2IC0yMyAwIDANCnYgLTI0IDAgMA0KdiAtMjUgMCAwDQp2IC0yNiAwIDANCnYgLTI3IDAgMA0KdiAtMjggMCAwDQp2IC0yOSAwIDANCnYgLTMwIDAgMA0KdiAtMzEgMCAwDQp2IC0zMiAwIDANCnYgLTMzIDAgMA0KdiAtMzQgMCAwDQp2IC0zNSAwIDANCnYgLTM2IDAgMA0KdiAtMzcgMCAwDQp2IC0zOCAwIDANCnYgLTM5IDAgMA0KdiAtNDAgMCAwDQp2IC00MSAwIDANCnYgLTQyIDAgMA0KdiAtNDMgMCAwDQp2IC00NCAwIDANCnYgLTQ1IDAgMA0KdiAtNDYgLTEgMA0KdiAtNDYgMCAwDQp2IDAgLTIgMA0KdiAtNDYgLTIgMA0KdiAwIC0zIDANCnYgLTQ2IC0zIDANCnYgMCAtNCAwDQp2IC00NiAtNCAwDQp2IDAgLTUgMA0KdiAtNDYgLTUgMA0KdiAwIC02IDANCnYgLTQ2IC02IDANCnYgMCAtNyAwDQp2IDAgLTggMA0KdiAwIC05IDANCnYgMCAtMTAgMA0KdiAtMjkgLTEwIDANCnYgLTMwIC0xMCAwDQp2IC0zMSAtMTAgMA0KdiAtMzIgLTEwIDANCnYgLTMzIC0xMCAwDQp2IC0zNCAtMTAgMA0KdiAtMzUgLTEwIDANCnYgLTM2IC0xMCAwDQp2IC0zNyAtMTAgMA0KdiAtMzggLTEwIDANCnYgLTQyIC0xMCAwDQp2IC00MyAtMTAgMA0KdiAtNDQgLTEwIDANCnYgLTQ1IC0xMCAwDQp2IDAgLTExIDANCnYgLTI5IC0xMSAwDQp2IDAgLTEyIDANCnYgLTI5IC0xMiAwDQp2IDAgLTEzIDANCnYgLTI5IC0xMyAwDQp2IDAgLTE0IDANCnYgLTI5IC0xNCAwDQp2IDAgLTE1IDANCnYgLTEgLTE1IDANCnYgLTIgLTE1IDANCnYgLTMgLTE1IDANCnYgLTQgLTE1IDANCnYgLTUgLTE1IDANCnYgLTYgLTE1IDANCnYgLTcgLTE1IDANCnYgLTggLTE1IDANCnYgLTkgLTE1IDANCnYgLTEwIC0xNSAwDQp2IC0xMSAtMTUgMA0KdiAtMjkgLTE1IDANCnYgLTExIC0xNiAwDQp2IC0yOSAtMTYgMA0KdiAtMTEgLTE3IDANCnYgLTI5IC0xNyAwDQp2IC0xMSAtMTggMA0KdiAtMjkgLTE4IDANCnYgLTExIC0xOSAwDQp2IC0yOSAtMTkgMA0KdiAtMTEgLTIwIDANCnYgLTI5IC0yMCAwDQp2IC0xMSAtMjEgMA0KdiAtMjkgLTIxIDANCnYgLTExIC0yMiAwDQp2IC0xMiAtMjIgMA0KdiAtMTMgLTIyIDANCnYgLTE0IC0yMiAwDQp2IC0xNSAtMjIgMA0KdiAtMTYgLTIyIDANCnYgLTE3IC0yMiAwDQp2IC0xOCAtMjIgMA0KdiAtMTkgLTIyIDANCnYgLTIwIC0yMiAwDQp2IC0yMSAtMjIgMA0KdiAtMjIgLTIyIDANCnYgLTIzIC0yMiAwDQp2IC0yNCAtMjIgMA0KdiAtMjUgLTIyIDANCnYgLTI2IC0yMiAwDQp2IC0yNyAtMjIgMA0KdiAtMjggLTIyIDANCnYgLTI5IC0yMiAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gMzYpDQp2dCAwLjEwMDAxMjIgMC45MDAwMTIyDQp2dCAwLjE5OTk4NzggMC45MDAwMTIyDQp2dCAwLjE5OTk4NzggMC45OTk5ODc4DQp2dCAwLjEwMDAxMjIgMC45OTk5ODc4DQp2dCAxLjIyMDcwM0UtMDUgMC45MDAwMTIyDQp2dCAwLjA5OTk4Nzc5IDAuOTAwMDEyMg0KdnQgMC4wOTk5ODc3OSAwLjk5OTk4NzgNCnZ0IDEuMjIwNzAzRS0wNSAwLjk5OTk4NzgNCnZ0IDAuMjAwMDEyMiAwLjkwMDAxMjINCnZ0IDAuMjk5OTg3OCAwLjkwMDAxMjINCnZ0IDAuMjk5OTg3OCAwLjk5OTk4NzgNCnZ0IDAuMjAwMDEyMiAwLjk5OTk4NzgNCnZ0IDEuMjIwNzAzRS0wNSAwLjgwMDAxMjINCnZ0IDAuMDk5OTg3NzkgMC44MDAwMTIyDQp2dCAwLjA5OTk4Nzc5IDAuODk5OTg3OA0KdnQgMS4yMjA3MDNFLTA1IDAuODk5OTg3OA0KdnQgMC4zMDAwMTIyIDAuOTAwMDEyMg0KdnQgMC4zOTk5ODc4IDAuOTAwMDEyMg0KdnQgMC4zOTk5ODc4IDAuOTk5OTg3OA0KdnQgMC4zMDAwMTIyIDAuOTk5OTg3OA0KdnQgMC42MDAwMTIyIDAuOTAwMDEyMg0KdnQgMC42OTk5ODc4IDAuOTAwMDEyMg0KdnQgMC42OTk5ODc4IDAuOTk5OTg3OA0KdnQgMC42MDAwMTIyIDAuOTk5OTg3OA0KdnQgMC41MDAwMTIyIDAuOTAwMDEyMg0KdnQgMC41OTk5ODc4IDAuOTAwMDEyMg0KdnQgMC41OTk5ODc4IDAuOTk5OTg3OA0KdnQgMC41MDAwMTIyIDAuOTk5OTg3OA0KdnQgMC40MDAwMTIyIDAuOTAwMDEyMg0KdnQgMC40OTk5ODc4IDAuOTAwMDEyMg0KdnQgMC40OTk5ODc4IDAuOTk5OTg3OA0KdnQgMC40MDAwMTIyIDAuOTk5OTg3OA0KdnQgMy42NjIxMUUtMDUgMC45MDAwMTIyDQp2dCAwLjI5OTk2MzQgMC45MDAwMTIyDQp2dCAwLjI5OTk2MzQgMC45OTk5ODc4DQp2dCAzLjY2MjExRS0wNSAwLjk5OTk4NzgNCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIEdyb3VwcyAoQ291bnQgPSAxMCkNCgpnIG1lc2hfMDAwMQpmIDEvMS8xIDIvMi8xIDMvMy8xIDQvNC8xCmYgMi81LzEgNS82LzEgNi83LzEgMy84LzEKZiA1LzEvMSA3LzIvMSA4LzMvMSA2LzQvMQpmIDcvOS8xIDkvMTAvMSAxMC8xMS8xIDgvMTIvMQpmIDkvOS8xIDExLzEwLzEgMTIvMTEvMSAxMC8xMi8xCmYgMTEvNS8xIDEzLzYvMSAxNC83LzEgMTIvOC8xCmYgMTMvNS8xIDE1LzYvMSAxNi83LzEgMTQvOC8xCmYgMTUvNS8xIDE3LzYvMSAxOC83LzEgMTYvOC8xCmYgMTcvMTMvMSAxOS8xNC8xIDIwLzE1LzEgMTgvMTYvMQpmIDE5LzEzLzEgMjEvMTQvMSAyMi8xNS8xIDIwLzE2LzEKZiAyMS8xMy8xIDIzLzE0LzEgMjQvMTUvMSAyMi8xNi8xCmYgMjMvMTMvMSAyNS8xNC8xIDI2LzE1LzEgMjQvMTYvMQpmIDI1LzEzLzEgMjcvMTQvMSAyOC8xNS8xIDI2LzE2LzEKZiAyNy8xMy8xIDI5LzE0LzEgMzAvMTUvMSAyOC8xNi8xCmYgMjkvMTMvMSAzMS8xNC8xIDMyLzE1LzEgMzAvMTYvMQpmIDMxLzEzLzEgMzMvMTQvMSAzNC8xNS8xIDMyLzE2LzEKZiAzMy8xMy8xIDM1LzE0LzEgMzYvMTUvMSAzNC8xNi8xCmYgMzUvMTMvMSAzNy8xNC8xIDM4LzE1LzEgMzYvMTYvMQpmIDM3LzEzLzEgMzkvMTQvMSA0MC8xNS8xIDM4LzE2LzEKZiAzOS8xMy8xIDQxLzE0LzEgNDIvMTUvMSA0MC8xNi8xCmYgNDEvMTMvMSA0My8xNC8xIDQ0LzE1LzEgNDIvMTYvMQpmIDQzLzEzLzEgNDUvMTQvMSA0Ni8xNS8xIDQ0LzE2LzEKZiA0NS8xMy8xIDQ3LzE0LzEgNDgvMTUvMSA0Ni8xNi8xCmYgNDcvMTMvMSA0OS8xNC8xIDUwLzE1LzEgNDgvMTYvMQpmIDQ5LzEzLzEgNTEvMTQvMSA1Mi8xNS8xIDUwLzE2LzEKZiA1MS8xMy8xIDUzLzE0LzEgNTQvMTUvMSA1Mi8xNi8xCmYgNTMvMTMvMSA1NS8xNC8xIDU2LzE1LzEgNTQvMTYvMQpmIDU1LzEzLzEgNTcvMTQvMSA1OC8xNS8xIDU2LzE2LzEKZiA1Ny8xMy8xIDU5LzE0LzEgNjAvMTUvMSA1OC8xNi8xCmYgNTkvMTMvMSA2MS8xNC8xIDYyLzE1LzEgNjAvMTYvMQpmIDYxLzEzLzEgNjMvMTQvMSA2NC8xNS8xIDYyLzE2LzEKZiA2My8xMy8xIDY1LzE0LzEgNjYvMTUvMSA2NC8xNi8xCmYgNjUvMTMvMSA2Ny8xNC8xIDY4LzE1LzEgNjYvMTYvMQpmIDY3LzEzLzEgNjkvMTQvMSA3MC8xNS8xIDY4LzE2LzEKZiA2OS8xMy8xIDcxLzE0LzEgNzIvMTUvMSA3MC8xNi8xCmYgNzEvMTMvMSA3My8xNC8xIDc0LzE1LzEgNzIvMTYvMQpmIDczLzEzLzEgNzUvMTQvMSA3Ni8xNS8xIDc0LzE2LzEKZiA3NS8xMy8xIDc3LzE0LzEgNzgvMTUvMSA3Ni8xNi8xCmYgNzcvMTMvMSA3OS8xNC8xIDgwLzE1LzEgNzgvMTYvMQpmIDc5LzEzLzEgODEvMTQvMSA4Mi8xNS8xIDgwLzE2LzEKZiA4MS8xMy8xIDgzLzE0LzEgODQvMTUvMSA4Mi8xNi8xCmYgODMvMTMvMSA4NS8xNC8xIDg2LzE1LzEgODQvMTYvMQpmIDg1LzEzLzEgODcvMTQvMSA4OC8xNS8xIDg2LzE2LzEKZiA4Ny8xMy8xIDg5LzE0LzEgOTAvMTUvMSA4OC8xNi8xCmYgOTEvMS8xIDkyLzIvMSAyLzMvMSAxLzQvMQpmIDkyLzUvMSA5My82LzEgNS83LzEgMi84LzEKZiA5My8xLzEgOTQvMi8xIDcvMy8xIDUvNC8xCmYgOTQvOS8xIDk1LzEwLzEgOS8xMS8xIDcvMTIvMQpmIDk1LzEvMSA5Ni8yLzEgMTEvMy8xIDkvNC8xCmYgOTYvMTcvMSA5Ny8xOC8xIDEzLzE5LzEgMTEvMjAvMQpmIDk3LzEvMSA5OC8yLzEgMTUvMy8xIDEzLzQvMQpmIDk4LzUvMSA5OS82LzEgMTcvNy8xIDE1LzgvMQpmIDk5LzEzLzEgMTAwLzE0LzEgMTkvMTUvMSAxNy8xNi8xCmYgMTAwLzEzLzEgMTAxLzE0LzEgMjEvMTUvMSAxOS8xNi8xCmYgMTAxLzEzLzEgMTAyLzE0LzEgMjMvMTUvMSAyMS8xNi8xCmYgMTAyLzEzLzEgMTAzLzE0LzEgMjUvMTUvMSAyMy8xNi8xCmYgMTAzLzEzLzEgMTA0LzE0LzEgMjcvMTUvMSAyNS8xNi8xCmYgMTA0LzEzLzEgMTA1LzE0LzEgMjkvMTUvMSAyNy8xNi8xCmYgMTA1LzEzLzEgMTA2LzE0LzEgMzEvMTUvMSAyOS8xNi8xCmYgMTA2LzEzLzEgMTA3LzE0LzEgMzMvMTUvMSAzMS8xNi8xCmYgMTA3LzEzLzEgMTA4LzE0LzEgMzUvMTUvMSAzMy8xNi8xCmYgMTA4LzEzLzEgMTA5LzE0LzEgMzcvMTUvMSAzNS8xNi8xCmYgMTA5LzEzLzEgMTEwLzE0LzEgMzkvMTUvMSAzNy8xNi8xCmYgMTEwLzEzLzEgMTExLzE0LzEgNDEvMTUvMSAzOS8xNi8xCmYgMTExLzEzLzEgMTEyLzE0LzEgNDMvMTUvMSA0MS8xNi8xCmYgMTEyLzEzLzEgMTEzLzE0LzEgNDUvMTUvMSA0My8xNi8xCmYgMTEzLzEzLzEgMTE0LzE0LzEgNDcvMTUvMSA0NS8xNi8xCmYgMTE0LzEzLzEgMTE1LzE0LzEgNDkvMTUvMSA0Ny8xNi8xCmYgMTE1LzEzLzEgMTE2LzE0LzEgNTEvMTUvMSA0OS8xNi8xCmYgMTE2LzEzLzEgMTE3LzE0LzEgNTMvMTUvMSA1MS8xNi8xCmYgMTE3LzEzLzEgMTE4LzE0LzEgNTUvMTUvMSA1My8xNi8xCmYgMTE4LzEzLzEgMTE5LzE0LzEgNTcvMTUvMSA1NS8xNi8xCmYgMTE5LzEzLzEgMTIwLzE0LzEgNTkvMTUvMSA1Ny8xNi8xCmYgMTIwLzEzLzEgMTIxLzE0LzEgNjEvMTUvMSA1OS8xNi8xCmYgMTIxLzEzLzEgMTIyLzE0LzEgNjMvMTUvMSA2MS8xNi8xCmYgMTIyLzEzLzEgMTIzLzE0LzEgNjUvMTUvMSA2My8xNi8xCmYgMTIzLzEzLzEgMTI0LzE0LzEgNjcvMTUvMSA2NS8xNi8xCmYgMTI0LzEzLzEgMTI1LzE0LzEgNjkvMTUvMSA2Ny8xNi8xCmYgMTI1LzEzLzEgMTI2LzE0LzEgNzEvMTUvMSA2OS8xNi8xCmYgMTI2LzEzLzEgMTI3LzE0LzEgNzMvMTUvMSA3MS8xNi8xCmYgMTI3LzEzLzEgMTI4LzE0LzEgNzUvMTUvMSA3My8xNi8xCmYgMTI4LzEzLzEgMTI5LzE0LzEgNzcvMTUvMSA3NS8xNi8xCmYgMTI5LzEzLzEgMTMwLzE0LzEgNzkvMTUvMSA3Ny8xNi8xCmYgMTMwLzEzLzEgMTMxLzE0LzEgODEvMTUvMSA3OS8xNi8xCmYgMTMxLzEzLzEgMTMyLzE0LzEgODMvMTUvMSA4MS8xNi8xCmYgMTMyLzEzLzEgMTMzLzE0LzEgODUvMTUvMSA4My8xNi8xCmYgMTMzLzEzLzEgMTM0LzE0LzEgODcvMTUvMSA4NS8xNi8xCmYgMTM0LzEzLzEgMTM1LzE0LzEgODkvMTUvMSA4Ny8xNi8xCmYgMTM2LzUvMSAxMzcvNi8xIDkyLzcvMSA5MS84LzEKZiAxMzcvOS8xIDEzOC8xMC8xIDkzLzExLzEgOTIvMTIvMQpmIDEzOC81LzEgMTM5LzYvMSA5NC83LzEgOTMvOC8xCmYgMTM5LzkvMSAxNDAvMTAvMSA5NS8xMS8xIDk0LzEyLzEKZiAxNDAvMS8xIDE0MS8yLzEgOTYvMy8xIDk1LzQvMQpmIDE0MS85LzEgMTQyLzEwLzEgOTcvMTEvMSA5Ni8xMi8xCmYgMTQyLzUvMSAxNDMvNi8xIDk4LzcvMSA5Ny84LzEKZiAxNDMvMS8xIDE0NC8yLzEgOTkvMy8xIDk4LzQvMQpmIDE0NC8xMy8xIDE0NS8xNC8xIDEwMC8xNS8xIDk5LzE2LzEKZiAxNDUvMTMvMSAxNDYvMTQvMSAxMDEvMTUvMSAxMDAvMTYvMQpmIDE0Ni8xMy8xIDE0Ny8xNC8xIDEwMi8xNS8xIDEwMS8xNi8xCmYgMTQ3LzEzLzEgMTQ4LzE0LzEgMTAzLzE1LzEgMTAyLzE2LzEKZiAxNDgvMTMvMSAxNDkvMTQvMSAxMDQvMTUvMSAxMDMvMTYvMQpmIDE0OS8xMy8xIDE1MC8xNC8xIDEwNS8xNS8xIDEwNC8xNi8xCmYgMTUwLzEzLzEgMTUxLzE0LzEgMTA2LzE1LzEgMTA1LzE2LzEKZiAxNTEvMTMvMSAxNTIvMTQvMSAxMDcvMTUvMSAxMDYvMTYvMQpmIDE1Mi8xMy8xIDE1My8xNC8xIDEwOC8xNS8xIDEwNy8xNi8xCmYgMTUzLzEzLzEgMTU0LzE0LzEgMTA5LzE1LzEgMTA4LzE2LzEKZiAxNTQvMTMvMSAxNTUvMTQvMSAxMTAvMTUvMSAxMDkvMTYvMQpmIDE1NS8xMy8xIDE1Ni8xNC8xIDExMS8xNS8xIDExMC8xNi8xCmYgMTU2LzEzLzEgMTU3LzE0LzEgMTEyLzE1LzEgMTExLzE2LzEKZiAxNTcvMTMvMSAxNTgvMTQvMSAxMTMvMTUvMSAxMTIvMTYvMQpmIDE1OC8xMy8xIDE1OS8xNC8xIDExNC8xNS8xIDExMy8xNi8xCmYgMTU5LzEzLzEgMTYwLzE0LzEgMTE1LzE1LzEgMTE0LzE2LzEKZiAxNjAvMTMvMSAxNjEvMTQvMSAxMTYvMTUvMSAxMTUvMTYvMQpmIDE2MS8xMy8xIDE2Mi8xNC8xIDExNy8xNS8xIDExNi8xNi8xCmYgMTYyLzEzLzEgMTYzLzE0LzEgMTE4LzE1LzEgMTE3LzE2LzEKZiAxNjMvMTMvMSAxNjQvMTQvMSAxMTkvMTUvMSAxMTgvMTYvMQpmIDE2NC8xMy8xIDE2NS8xNC8xIDEyMC8xNS8xIDExOS8xNi8xCmYgMTY1LzEzLzEgMTY2LzE0LzEgMTIxLzE1LzEgMTIwLzE2LzEKZiAxNjYvMTMvMSAxNjcvMTQvMSAxMjIvMTUvMSAxMjEvMTYvMQpmIDE2Ny8xMy8xIDE2OC8xNC8xIDEyMy8xNS8xIDEyMi8xNi8xCmYgMTY4LzEzLzEgMTY5LzE0LzEgMTI0LzE1LzEgMTIzLzE2LzEKZiAxNjkvMTMvMSAxNzAvMTQvMSAxMjUvMTUvMSAxMjQvMTYvMQpmIDE3MC8xMy8xIDE3MS8xNC8xIDEyNi8xNS8xIDEyNS8xNi8xCmYgMTcxLzEzLzEgMTcyLzE0LzEgMTI3LzE1LzEgMTI2LzE2LzEKZiAxNzIvMTMvMSAxNzMvMTQvMSAxMjgvMTUvMSAxMjcvMTYvMQpmIDE3My8xMy8xIDE3NC8xNC8xIDEyOS8xNS8xIDEyOC8xNi8xCmYgMTc0LzEzLzEgMTc1LzE0LzEgMTMwLzE1LzEgMTI5LzE2LzEKZiAxNzUvMTMvMSAxNzYvMTQvMSAxMzEvMTUvMSAxMzAvMTYvMQpmIDE3Ni8xMy8xIDE3Ny8xNC8xIDEzMi8xNS8xIDEzMS8xNi8xCmYgMTc3LzEzLzEgMTc4LzE0LzEgMTMzLzE1LzEgMTMyLzE2LzEKZiAxNzgvMTMvMSAxNzkvMTQvMSAxMzQvMTUvMSAxMzMvMTYvMQpmIDE3OS8xMy8xIDE4MC8xNC8xIDEzNS8xNS8xIDEzNC8xNi8xCmYgMTgxLzUvMSAxODIvNi8xIDEzNy83LzEgMTM2LzgvMQpmIDE4Mi81LzEgMTgzLzYvMSAxMzgvNy8xIDEzNy84LzEKZiAxODMvNS8xIDE4NC82LzEgMTM5LzcvMSAxMzgvOC8xCmYgMTg0LzEvMSAxODUvMi8xIDE0MC8zLzEgMTM5LzQvMQpmIDE4NS85LzEgMTg2LzEwLzEgMTQxLzExLzEgMTQwLzEyLzEKZiAxODYvMS8xIDE4Ny8yLzEgMTQyLzMvMSAxNDEvNC8xCmYgMTg3LzUvMSAxODgvNi8xIDE0My83LzEgMTQyLzgvMQpmIDE4OC81LzEgMTg5LzYvMSAxNDQvNy8xIDE0My84LzEKZiAxODkvMTMvMSAxOTAvMTQvMSAxNDUvMTUvMSAxNDQvMTYvMQpmIDE5MC8xMy8xIDE5MS8xNC8xIDE0Ni8xNS8xIDE0NS8xNi8xCmYgMTkxLzEzLzEgMTkyLzE0LzEgMTQ3LzE1LzEgMTQ2LzE2LzEKZiAxOTIvMTMvMSAxOTMvMTQvMSAxNDgvMTUvMSAxNDcvMTYvMQpmIDE5My8xMy8xIDE5NC8xNC8xIDE0OS8xNS8xIDE0OC8xNi8xCmYgMTk0LzEzLzEgMTk1LzE0LzEgMTUwLzE1LzEgMTQ5LzE2LzEKZiAxOTUvMTMvMSAxOTYvMTQvMSAxNTEvMTUvMSAxNTAvMTYvMQpmIDE5Ni8xMy8xIDE5Ny8xNC8xIDE1Mi8xNS8xIDE1MS8xNi8xCmYgMTk3LzEzLzEgMTk4LzE0LzEgMTUzLzE1LzEgMTUyLzE2LzEKZiAxOTgvMTMvMSAxOTkvMTQvMSAxNTQvMTUvMSAxNTMvMTYvMQpmIDE5OS8xMy8xIDIwMC8xNC8xIDE1NS8xNS8xIDE1NC8xNi8xCmYgMjAwLzEzLzEgMjAxLzE0LzEgMTU2LzE1LzEgMTU1LzE2LzEKZiAyMDEvMTMvMSAyMDIvMTQvMSAxNTcvMTUvMSAxNTYvMTYvMQpmIDIwMi8xMy8xIDIwMy8xNC8xIDE1OC8xNS8xIDE1Ny8xNi8xCmYgMjAzLzEzLzEgMjA0LzE0LzEgMTU5LzE1LzEgMTU4LzE2LzEKZiAyMDQvMTMvMSAyMDUvMTQvMSAxNjAvMTUvMSAxNTkvMTYvMQpmIDIwNS8xMy8xIDIwNi8xNC8xIDE2MS8xNS8xIDE2MC8xNi8xCmYgMjA2LzEzLzEgMjA3LzE0LzEgMTYyLzE1LzEgMTYxLzE2LzEKZiAyMDcvMTMvMSAyMDgvMTQvMSAxNjMvMTUvMSAxNjIvMTYvMQpmIDIwOC8xMy8xIDIwOS8xNC8xIDE2NC8xNS8xIDE2My8xNi8xCmYgMjA5LzEzLzEgMjEwLzE0LzEgMTY1LzE1LzEgMTY0LzE2LzEKZiAyMTAvMTMvMSAyMTEvMTQvMSAxNjYvMTUvMSAxNjUvMTYvMQpmIDIxMS8xMy8xIDIxMi8xNC8xIDE2Ny8xNS8xIDE2Ni8xNi8xCmYgMjEyLzEzLzEgMjEzLzE0LzEgMTY4LzE1LzEgMTY3LzE2LzEKZiAyMTMvMTMvMSAyMTQvMTQvMSAxNjkvMTUvMSAxNjgvMTYvMQpmIDIxNC8xMy8xIDIxNS8xNC8xIDE3MC8xNS8xIDE2OS8xNi8xCmYgMjE1LzEzLzEgMjE2LzE0LzEgMTcxLzE1LzEgMTcwLzE2LzEKZiAyMTYvMTMvMSAyMTcvMTQvMSAxNzIvMTUvMSAxNzEvMTYvMQpmIDIxNy8xMy8xIDIxOC8xNC8xIDE3My8xNS8xIDE3Mi8xNi8xCmYgMjE4LzEzLzEgMjE5LzE0LzEgMTc0LzE1LzEgMTczLzE2LzEKZiAyMTkvMTMvMSAyMjAvMTQvMSAxNzUvMTUvMSAxNzQvMTYvMQpmIDIyMC8xMy8xIDIyMS8xNC8xIDE3Ni8xNS8xIDE3NS8xNi8xCmYgMjIxLzEzLzEgMjIyLzE0LzEgMTc3LzE1LzEgMTc2LzE2LzEKZiAyMjIvMTMvMSAyMjMvMTQvMSAxNzgvMTUvMSAxNzcvMTYvMQpmIDIyMy8xMy8xIDIyNC8xNC8xIDE3OS8xNS8xIDE3OC8xNi8xCmYgMjI0LzEzLzEgMjI1LzE0LzEgMTgwLzE1LzEgMTc5LzE2LzEKZiAyMjYvMTMvMSAyMjcvMTQvMSAxODIvMTUvMSAxODEvMTYvMQpmIDIyNy8xMy8xIDIyOC8xNC8xIDE4My8xNS8xIDE4Mi8xNi8xCmYgMjI4LzEzLzEgMjI5LzE0LzEgMTg0LzE1LzEgMTgzLzE2LzEKZiAyMjkvMTMvMSAyMzAvMTQvMSAxODUvMTUvMSAxODQvMTYvMQpmIDIzMC8xMy8xIDIzMS8xNC8xIDE4Ni8xNS8xIDE4NS8xNi8xCmYgMjMxLzEzLzEgMjMyLzE0LzEgMTg3LzE1LzEgMTg2LzE2LzEKZiAyMzIvMTMvMSAyMzMvMTQvMSAxODgvMTUvMSAxODcvMTYvMQpmIDIzMy8xMy8xIDIzNC8xNC8xIDE4OS8xNS8xIDE4OC8xNi8xCmYgMjM0LzEzLzEgMjM1LzE0LzEgMTkwLzE1LzEgMTg5LzE2LzEKZiAyMzUvMTMvMSAyMzYvMTQvMSAxOTEvMTUvMSAxOTAvMTYvMQpmIDIzNi8xMy8xIDIzNy8xNC8xIDE5Mi8xNS8xIDE5MS8xNi8xCmYgMjM3LzEzLzEgMjM4LzE0LzEgMTkzLzE1LzEgMTkyLzE2LzEKZiAyMzgvMTMvMSAyMzkvMTQvMSAxOTQvMTUvMSAxOTMvMTYvMQpmIDIzOS8xMy8xIDI0MC8xNC8xIDE5NS8xNS8xIDE5NC8xNi8xCmYgMjQwLzEzLzEgMjQxLzE0LzEgMTk2LzE1LzEgMTk1LzE2LzEKZiAyNDEvMTMvMSAyNDIvMTQvMSAxOTcvMTUvMSAxOTYvMTYvMQpmIDI0Mi8xMy8xIDI0My8xNC8xIDE5OC8xNS8xIDE5Ny8xNi8xCmYgMjQzLzEzLzEgMjQ0LzE0LzEgMTk5LzE1LzEgMTk4LzE2LzEKZiAyNDQvMTMvMSAyNDUvMTQvMSAyMDAvMTUvMSAxOTkvMTYvMQpmIDI0NS8xMy8xIDI0Ni8xNC8xIDIwMS8xNS8xIDIwMC8xNi8xCmYgMjQ2LzEzLzEgMjQ3LzE0LzEgMjAyLzE1LzEgMjAxLzE2LzEKZiAyNDcvMTMvMSAyNDgvMTQvMSAyMDMvMTUvMSAyMDIvMTYvMQpmIDI0OC8xMy8xIDI0OS8xNC8xIDIwNC8xNS8xIDIwMy8xNi8xCmYgMjQ5LzEzLzEgMjUwLzE0LzEgMjA1LzE1LzEgMjA0LzE2LzEKZiAyNTAvMTMvMSAyNTEvMTQvMSAyMDYvMTUvMSAyMDUvMTYvMQpmIDI1MS8xMy8xIDI1Mi8xNC8xIDIwNy8xNS8xIDIwNi8xNi8xCmYgMjUyLzEzLzEgMjUzLzE0LzEgMjA4LzE1LzEgMjA3LzE2LzEKZiAyNTMvMTMvMSAyNTQvMTQvMSAyMDkvMTUvMSAyMDgvMTYvMQpmIDI1NC8xMy8xIDI1NS8xNC8xIDIxMC8xNS8xIDIwOS8xNi8xCmYgMjU1LzEzLzEgMjU2LzE0LzEgMjExLzE1LzEgMjEwLzE2LzEKZiAyNTYvMTMvMSAyNTcvMTQvMSAyMTIvMTUvMSAyMTEvMTYvMQpmIDI1Ny8xMy8xIDI1OC8xNC8xIDIxMy8xNS8xIDIxMi8xNi8xCmYgMjU4LzEzLzEgMjU5LzE0LzEgMjE0LzE1LzEgMjEzLzE2LzEKZiAyNTkvMTMvMSAyNjAvMTQvMSAyMTUvMTUvMSAyMTQvMTYvMQpmIDI2MC8xMy8xIDI2MS8xNC8xIDIxNi8xNS8xIDIxNS8xNi8xCmYgMjYxLzEzLzEgMjYyLzE0LzEgMjE3LzE1LzEgMjE2LzE2LzEKZiAyNjIvMTMvMSAyNjMvMTQvMSAyMTgvMTUvMSAyMTcvMTYvMQpmIDI2My8xMy8xIDI2NC8xNC8xIDIxOS8xNS8xIDIxOC8xNi8xCmYgMjY0LzEzLzEgMjY1LzE0LzEgMjIwLzE1LzEgMjE5LzE2LzEKZiAyNjUvMTMvMSAyNjYvMTQvMSAyMjEvMTUvMSAyMjAvMTYvMQpmIDI2Ni8xMy8xIDI2Ny8xNC8xIDIyMi8xNS8xIDIyMS8xNi8xCmYgMjY3LzEzLzEgMjY4LzE0LzEgMjIzLzE1LzEgMjIyLzE2LzEKZiAyNjgvMTMvMSAyNjkvMTQvMSAyMjQvMTUvMSAyMjMvMTYvMQpmIDI2OS8xMy8xIDI3MC8xNC8xIDIyNS8xNS8xIDIyNC8xNi8xCmYgMjcxLzEzLzEgMjcyLzE0LzEgMjI3LzE1LzEgMjI2LzE2LzEKZiAyNzIvMTMvMSAyNzMvMTQvMSAyMjgvMTUvMSAyMjcvMTYvMQpmIDI3My8xMy8xIDI3NC8xNC8xIDIyOS8xNS8xIDIyOC8xNi8xCmYgMjc0LzEzLzEgMjc1LzE0LzEgMjMwLzE1LzEgMjI5LzE2LzEKZiAyNzUvMTMvMSAyNzYvMTQvMSAyMzEvMTUvMSAyMzAvMTYvMQpmIDI3Ni8xMy8xIDI3Ny8xNC8xIDIzMi8xNS8xIDIzMS8xNi8xCmYgMjc3LzEzLzEgMjc4LzE0LzEgMjMzLzE1LzEgMjMyLzE2LzEKZiAyNzgvMTMvMSAyNzkvMTQvMSAyMzQvMTUvMSAyMzMvMTYvMQpmIDI3OS8xMy8xIDI4MC8xNC8xIDIzNS8xNS8xIDIzNC8xNi8xCmYgMjgwLzEzLzEgMjgxLzE0LzEgMjM2LzE1LzEgMjM1LzE2LzEKZiAyODEvMTMvMSAyODIvMTQvMSAyMzcvMTUvMSAyMzYvMTYvMQpmIDI4Mi8xMy8xIDI4My8xNC8xIDIzOC8xNS8xIDIzNy8xNi8xCmYgMjgzLzEzLzEgMjg0LzE0LzEgMjM5LzE1LzEgMjM4LzE2LzEKZiAyODQvMTMvMSAyODUvMTQvMSAyNDAvMTUvMSAyMzkvMTYvMQpmIDI4NS8xMy8xIDI4Ni8xNC8xIDI0MS8xNS8xIDI0MC8xNi8xCmYgMjg2LzEzLzEgMjg3LzE0LzEgMjQyLzE1LzEgMjQxLzE2LzEKZiAyODcvMTMvMSAyODgvMTQvMSAyNDMvMTUvMSAyNDIvMTYvMQpmIDI4OC8xMy8xIDI4OS8xNC8xIDI0NC8xNS8xIDI0My8xNi8xCmYgMjg5LzEzLzEgMjkwLzE0LzEgMjQ1LzE1LzEgMjQ0LzE2LzEKZiAyOTAvMTMvMSAyOTEvMTQvMSAyNDYvMTUvMSAyNDUvMTYvMQpmIDI5MS8xMy8xIDI5Mi8xNC8xIDI0Ny8xNS8xIDI0Ni8xNi8xCmYgMjkyLzEzLzEgMjkzLzE0LzEgMjQ4LzE1LzEgMjQ3LzE2LzEKZiAyOTMvMTMvMSAyOTQvMTQvMSAyNDkvMTUvMSAyNDgvMTYvMQpmIDI5NC8xMy8xIDI5NS8xNC8xIDI1MC8xNS8xIDI0OS8xNi8xCmYgMjk1LzEzLzEgMjk2LzE0LzEgMjUxLzE1LzEgMjUwLzE2LzEKZiAyOTYvMTMvMSAyOTcvMTQvMSAyNTIvMTUvMSAyNTEvMTYvMQpmIDI5Ny8xMy8xIDI5OC8xNC8xIDI1My8xNS8xIDI1Mi8xNi8xCmYgMjk4LzEzLzEgMjk5LzE0LzEgMjU0LzE1LzEgMjUzLzE2LzEKZiAyOTkvMTMvMSAzMDAvMTQvMSAyNTUvMTUvMSAyNTQvMTYvMQpmIDMwMC8xMy8xIDMwMS8xNC8xIDI1Ni8xNS8xIDI1NS8xNi8xCmYgMzAxLzEzLzEgMzAyLzE0LzEgMjU3LzE1LzEgMjU2LzE2LzEKZiAzMDIvMTMvMSAzMDMvMTQvMSAyNTgvMTUvMSAyNTcvMTYvMQpmIDMwMy8xMy8xIDMwNC8xNC8xIDI1OS8xNS8xIDI1OC8xNi8xCmYgMzA0LzEzLzEgMzA1LzE0LzEgMjYwLzE1LzEgMjU5LzE2LzEKZiAzMDUvMTMvMSAzMDYvMTQvMSAyNjEvMTUvMSAyNjAvMTYvMQpmIDMwNi8xMy8xIDMwNy8xNC8xIDI2Mi8xNS8xIDI2MS8xNi8xCmYgMzA3LzEzLzEgMzA4LzE0LzEgMjYzLzE1LzEgMjYyLzE2LzEKZiAzMDgvMTMvMSAzMDkvMTQvMSAyNjQvMTUvMSAyNjMvMTYvMQpmIDMwOS8xMy8xIDMxMC8xNC8xIDI2NS8xNS8xIDI2NC8xNi8xCmYgMzEwLzEzLzEgMzExLzE0LzEgMjY2LzE1LzEgMjY1LzE2LzEKZiAzMTEvMTMvMSAzMTIvMTQvMSAyNjcvMTUvMSAyNjYvMTYvMQpmIDMxMi8xMy8xIDMxMy8xNC8xIDI2OC8xNS8xIDI2Ny8xNi8xCmYgMzEzLzEzLzEgMzE0LzE0LzEgMjY5LzE1LzEgMjY4LzE2LzEKZiAzMTQvMTMvMSAzMTUvMTQvMSAyNzAvMTUvMSAyNjkvMTYvMQpmIDMxNi8xMy8xIDMxNy8xNC8xIDI3Mi8xNS8xIDI3MS8xNi8xCmYgMzE3LzEzLzEgMzE4LzE0LzEgMjczLzE1LzEgMjcyLzE2LzEKZiAzMTgvNS8xIDMxOS82LzEgMjc0LzcvMSAyNzMvOC8xCmYgMzE5LzkvMSAzMjAvMTAvMSAyNzUvMTEvMSAyNzQvMTIvMQpmIDMyMC81LzEgMzIxLzYvMSAyNzYvNy8xIDI3NS84LzEKZiAzMjEvNS8xIDMyMi82LzEgMjc3LzcvMSAyNzYvOC8xCmYgMzIyLzkvMSAzMjMvMTAvMSAyNzgvMTEvMSAyNzcvMTIvMQpmIDMyMy85LzEgMzI0LzEwLzEgMjc5LzExLzEgMjc4LzEyLzEKZiAzMjQvMS8xIDMyNS8yLzEgMjgwLzMvMSAyNzkvNC8xCmYgMzI1LzkvMSAzMjYvMTAvMSAyODEvMTEvMSAyODAvMTIvMQpmIDMyNi8xLzEgMzI3LzIvMSAyODIvMy8xIDI4MS80LzEKZiAzMjcvMTMvMSAzMjgvMTQvMSAyODMvMTUvMSAyODIvMTYvMQpmIDMyOC8xMy8xIDMyOS8xNC8xIDI4NC8xNS8xIDI4My8xNi8xCmYgMzI5LzEzLzEgMzMwLzE0LzEgMjg1LzE1LzEgMjg0LzE2LzEKZiAzMzAvMTMvMSAzMzEvMTQvMSAyODYvMTUvMSAyODUvMTYvMQpmIDMzMS8xMy8xIDMzMi8xNC8xIDI4Ny8xNS8xIDI4Ni8xNi8xCmYgMzMyLzEzLzEgMzMzLzE0LzEgMjg4LzE1LzEgMjg3LzE2LzEKZiAzMzMvMTMvMSAzMzQvMTQvMSAyODkvMTUvMSAyODgvMTYvMQpmIDMzNC8xMy8xIDMzNS8xNC8xIDI5MC8xNS8xIDI4OS8xNi8xCmYgMzM1LzEzLzEgMzM2LzE0LzEgMjkxLzE1LzEgMjkwLzE2LzEKZiAzMzYvMTMvMSAzMzcvMTQvMSAyOTIvMTUvMSAyOTEvMTYvMQpmIDMzNy8xMy8xIDMzOC8xNC8xIDI5My8xNS8xIDI5Mi8xNi8xCmYgMzM4LzEzLzEgMzM5LzE0LzEgMjk0LzE1LzEgMjkzLzE2LzEKZiAzMzkvMTMvMSAzNDAvMTQvMSAyOTUvMTUvMSAyOTQvMTYvMQpmIDM0MC8xMy8xIDM0MS8xNC8xIDI5Ni8xNS8xIDI5NS8xNi8xCmYgMzQxLzEzLzEgMzQyLzE0LzEgMjk3LzE1LzEgMjk2LzE2LzEKZiAzNDIvMTMvMSAzNDMvMTQvMSAyOTgvMTUvMSAyOTcvMTYvMQpmIDM0My8xMy8xIDM0NC8xNC8xIDI5OS8xNS8xIDI5OC8xNi8xCmYgMzQ0LzEzLzEgMzQ1LzE0LzEgMzAwLzE1LzEgMjk5LzE2LzEKZiAzNDUvMTMvMSAzNDYvMTQvMSAzMDEvMTUvMSAzMDAvMTYvMQpmIDM0Ni8xMy8xIDM0Ny8xNC8xIDMwMi8xNS8xIDMwMS8xNi8xCmYgMzQ3LzEzLzEgMzQ4LzE0LzEgMzAzLzE1LzEgMzAyLzE2LzEKZiAzNDgvMTMvMSAzNDkvMTQvMSAzMDQvMTUvMSAzMDMvMTYvMQpmIDM0OS8xMy8xIDM1MC8xNC8xIDMwNS8xNS8xIDMwNC8xNi8xCmYgMzUwLzEzLzEgMzUxLzE0LzEgMzA2LzE1LzEgMzA1LzE2LzEKZiAzNTEvMTMvMSAzNTIvMTQvMSAzMDcvMTUvMSAzMDYvMTYvMQpmIDM1Mi8xMy8xIDM1My8xNC8xIDMwOC8xNS8xIDMwNy8xNi8xCmYgMzUzLzEzLzEgMzU0LzE0LzEgMzA5LzE1LzEgMzA4LzE2LzEKZiAzNTQvMTMvMSAzNTUvMTQvMSAzMTAvMTUvMSAzMDkvMTYvMQpmIDM1NS8xMy8xIDM1Ni8xNC8xIDMxMS8xNS8xIDMxMC8xNi8xCmYgMzU2LzEzLzEgMzU3LzE0LzEgMzEyLzE1LzEgMzExLzE2LzEKZiAzNTcvMTMvMSAzNTgvMTQvMSAzMTMvMTUvMSAzMTIvMTYvMQpmIDM1OC8xMy8xIDM1OS8xNC8xIDMxNC8xNS8xIDMxMy8xNi8xCmYgMzU5LzEzLzEgMzYwLzE0LzEgMzE1LzE1LzEgMzE0LzE2LzEKZiAzNjAvNS8xIDM2MS82LzEgMzYyLzcvMSAzMTUvOC8xCmYgMzYxLzE3LzEgMzYzLzE4LzEgMzY0LzE5LzEgMzYyLzIwLzEKZiAzNjMvMTMvMSAzNjUvMTQvMSAzNjYvMTUvMSAzNjQvMTYvMQpmIDM2NS81LzEgMzY3LzYvMSAzNjgvNy8xIDM2Ni84LzEKZiAzNjcvMTMvMSAzNjkvMTQvMSAzNzAvMTUvMSAzNjgvMTYvMQpmIDM2OS81LzEgMzcxLzYvMSAzNzIvNy8xIDM3MC84LzEKZiAzNzEvMTMvMSAzNzMvMTQvMSAzNzQvMTUvMSAzNzIvMTYvMQpmIDM3NS8xMy8xIDM3Ni8xNC8xIDMxNy8xNS8xIDMxNi8xNi8xCmYgMzc2LzEzLzEgMzc3LzE0LzEgMzE4LzE1LzEgMzE3LzE2LzEKZiAzNzcvOS8xIDM3OC8xMC8xIDMxOS8xMS8xIDMxOC8xMi8xCmYgMzc4LzkvMSAzNzkvMTAvMSAzMjAvMTEvMSAzMTkvMTIvMQpmIDM3OS8xLzEgMzgwLzIvMSAzMjEvMy8xIDMyMC80LzEKZiAzODAvOS8xIDM4MS8xMC8xIDMyMi8xMS8xIDMyMS8xMi8xCmYgMzgxLzUvMSAzODIvNi8xIDMyMy83LzEgMzIyLzgvMQpmIDM4Mi81LzEgMzgzLzYvMSAzMjQvNy8xIDMyMy84LzEKZiAzODMvMS8xIDM4NC8yLzEgMzI1LzMvMSAzMjQvNC8xCmYgMzg0LzUvMSAzODUvNi8xIDMyNi83LzEgMzI1LzgvMQpmIDM4NS81LzEgMzg2LzYvMSAzMjcvNy8xIDMyNi84LzEKZiAzODYvMTMvMSAzODcvMTQvMSAzMjgvMTUvMSAzMjcvMTYvMQpmIDM4Ny8xMy8xIDM4OC8xNC8xIDMyOS8xNS8xIDMyOC8xNi8xCmYgMzg4LzEzLzEgMzg5LzE0LzEgMzMwLzE1LzEgMzI5LzE2LzEKZiAzODkvMTMvMSAzOTAvMTQvMSAzMzEvMTUvMSAzMzAvMTYvMQpmIDM5MC8xMy8xIDM5MS8xNC8xIDMzMi8xNS8xIDMzMS8xNi8xCmYgMzkxLzEzLzEgMzkyLzE0LzEgMzMzLzE1LzEgMzMyLzE2LzEKZiAzOTIvMTMvMSAzOTMvMTQvMSAzMzQvMTUvMSAzMzMvMTYvMQpmIDM5My8xMy8xIDM5NC8xNC8xIDMzNS8xNS8xIDMzNC8xNi8xCmYgMzk0LzEzLzEgMzk1LzE0LzEgMzM2LzE1LzEgMzM1LzE2LzEKZiAzOTUvMTMvMSAzOTYvMTQvMSAzMzcvMTUvMSAzMzYvMTYvMQpmIDM5Ni8xMy8xIDM5Ny8xNC8xIDMzOC8xNS8xIDMzNy8xNi8xCmYgMzk3LzEzLzEgMzk4LzE0LzEgMzM5LzE1LzEgMzM4LzE2LzEKZiAzOTgvMTMvMSAzOTkvMTQvMSAzNDAvMTUvMSAzMzkvMTYvMQpmIDM5OS8xMy8xIDQwMC8xNC8xIDM0MS8xNS8xIDM0MC8xNi8xCmYgNDAwLzEzLzEgNDAxLzE0LzEgMzQyLzE1LzEgMzQxLzE2LzEKZiA0MDEvMTMvMSA0MDIvMTQvMSAzNDMvMTUvMSAzNDIvMTYvMQpmIDQwMi8xMy8xIDQwMy8xNC8xIDM0NC8xNS8xIDM0My8xNi8xCmYgNDAzLzEzLzEgNDA0LzE0LzEgMzQ1LzE1LzEgMzQ0LzE2LzEKZiA0MDQvMTMvMSA0MDUvMTQvMSAzNDYvMTUvMSAzNDUvMTYvMQpmIDQwNS8xMy8xIDQwNi8xNC8xIDM0Ny8xNS8xIDM0Ni8xNi8xCmYgNDA2LzEzLzEgNDA3LzE0LzEgMzQ4LzE1LzEgMzQ3LzE2LzEKZiA0MDcvMTMvMSA0MDgvMTQvMSAzNDkvMTUvMSAzNDgvMTYvMQpmIDQwOC8xMy8xIDQwOS8xNC8xIDM1MC8xNS8xIDM0OS8xNi8xCmYgNDA5LzEzLzEgNDEwLzE0LzEgMzUxLzE1LzEgMzUwLzE2LzEKZiA0MTAvMTMvMSA0MTEvMTQvMSAzNTIvMTUvMSAzNTEvMTYvMQpmIDQxMS8xMy8xIDQxMi8xNC8xIDM1My8xNS8xIDM1Mi8xNi8xCmYgNDEyLzEzLzEgNDEzLzE0LzEgMzU0LzE1LzEgMzUzLzE2LzEKZiA0MTMvMTMvMSA0MTQvMTQvMSAzNTUvMTUvMSAzNTQvMTYvMQpmIDQxNC8xMy8xIDQxNS8xNC8xIDM1Ni8xNS8xIDM1NS8xNi8xCmYgNDE1LzEzLzEgNDE2LzE0LzEgMzU3LzE1LzEgMzU2LzE2LzEKZiA0MTYvMTMvMSA0MTcvMTQvMSAzNTgvMTUvMSAzNTcvMTYvMQpmIDQxNy8xMy8xIDQxOC8xNC8xIDM1OS8xNS8xIDM1OC8xNi8xCmYgNDE4LzEzLzEgNDE5LzE0LzEgMzYwLzE1LzEgMzU5LzE2LzEKZiA0MTkvNS8xIDQyMC82LzEgMzYxLzcvMSAzNjAvOC8xCmYgNDIwLzE3LzEgNDIxLzE4LzEgMzYzLzE5LzEgMzYxLzIwLzEKZiA0MjEvNS8xIDQyMi82LzEgMzY1LzcvMSAzNjMvOC8xCmYgNDIyLzEzLzEgNDIzLzE0LzEgMzY3LzE1LzEgMzY1LzE2LzEKZiA0MjMvNS8xIDQyNC82LzEgMzY5LzcvMSAzNjcvOC8xCmYgNDI0LzEzLzEgNDI1LzE0LzEgMzcxLzE1LzEgMzY5LzE2LzEKZiA0MjUvNS8xIDQyNi82LzEgMzczLzcvMSAzNzEvOC8xCmYgNDI3LzEzLzEgNDI4LzE0LzEgMzc2LzE1LzEgMzc1LzE2LzEKZiA0MjgvMTMvMSA0MjkvMTQvMSAzNzcvMTUvMSAzNzYvMTYvMQpmIDQyOS81LzEgNDMwLzYvMSAzNzgvNy8xIDM3Ny84LzEKZiA0MzAvNS8xIDQzMS82LzEgMzc5LzcvMSAzNzgvOC8xCmYgNDMxLzUvMSA0MzIvNi8xIDM4MC83LzEgMzc5LzgvMQpmIDQzMi8xLzEgNDMzLzIvMSAzODEvMy8xIDM4MC80LzEKZiA0MzMvMS8xIDQzNC8yLzEgMzgyLzMvMSAzODEvNC8xCmYgNDM0LzEvMSA0MzUvMi8xIDM4My8zLzEgMzgyLzQvMQpmIDQzNS8xLzEgNDM2LzIvMSAzODQvMy8xIDM4My80LzEKZiA0MzYvMS8xIDQzNy8yLzEgMzg1LzMvMSAzODQvNC8xCmYgNDM3LzkvMSA0MzgvMTAvMSAzODYvMTEvMSAzODUvMTIvMQpmIDQzOC81LzEgNDM5LzYvMSAzODcvNy8xIDM4Ni84LzEKZiA0MzkvNS8xIDQ0MC82LzEgMzg4LzcvMSAzODcvOC8xCmYgNDQwLzkvMSA0NDEvMTAvMSAzODkvMTEvMSAzODgvMTIvMQpmIDQ0MS81LzEgNDQyLzYvMSAzOTAvNy8xIDM4OS84LzEKZiA0NDIvNS8xIDQ0My82LzEgMzkxLzcvMSAzOTAvOC8xCmYgNDQzLzEvMSA0NDQvMi8xIDM5Mi8zLzEgMzkxLzQvMQpmIDQ0NC85LzEgNDQ1LzEwLzEgMzkzLzExLzEgMzkyLzEyLzEKZiA0NDUvOS8xIDQ0Ni8xMC8xIDM5NC8xMS8xIDM5My8xMi8xCmYgNDQ2LzUvMSA0NDcvNi8xIDM5NS83LzEgMzk0LzgvMQpmIDQ0Ny81LzEgNDQ4LzYvMSAzOTYvNy8xIDM5NS84LzEKZiA0NDgvNS8xIDQ0OS82LzEgMzk3LzcvMSAzOTYvOC8xCmYgNDQ5LzkvMSA0NTAvMTAvMSAzOTgvMTEvMSAzOTcvMTIvMQpmIDQ1MC81LzEgNDUxLzYvMSAzOTkvNy8xIDM5OC84LzEKZiA0NTEvOS8xIDQ1Mi8xMC8xIDQwMC8xMS8xIDM5OS8xMi8xCmYgNDUyLzkvMSA0NTMvMTAvMSA0MDEvMTEvMSA0MDAvMTIvMQpmIDQ1My81LzEgNDU0LzYvMSA0MDIvNy8xIDQwMS84LzEKZiA0NTUvMTMvMSA0NTYvMTQvMSA0MTQvMTUvMSA0MTMvMTYvMQpmIDQ1Ni8xMy8xIDQ1Ny8xNC8xIDQxNS8xNS8xIDQxNC8xNi8xCmYgNDU4LzUvMSA0NTkvNi8xIDQyMS83LzEgNDIwLzgvMQpmIDQ1OS8xMy8xIDQ2MC8xNC8xIDQyMi8xNS8xIDQyMS8xNi8xCmYgNDYwLzUvMSA0NjEvNi8xIDQyMy83LzEgNDIyLzgvMQpmIDQ2MS8xMy8xIDQ2Mi8xNC8xIDQyNC8xNS8xIDQyMy8xNi8xCmYgNDYyLzUvMSA0NjMvNi8xIDQyNS83LzEgNDI0LzgvMQpmIDQ2My8xMy8xIDQ2NC8xNC8xIDQyNi8xNS8xIDQyNS8xNi8xCmYgNDY1LzEzLzEgNDY2LzE0LzEgNDI4LzE1LzEgNDI3LzE2LzEKZiA0NjYvMTMvMSA0NjcvMTQvMSA0MjkvMTUvMSA0MjgvMTYvMQpmIDQ2Ny81LzEgNDY4LzYvMSA0MzAvNy8xIDQyOS84LzEKZiA0NjgvOS8xIDQ2OS8xMC8xIDQzMS8xMS8xIDQzMC8xMi8xCmYgNDY5LzEvMSA0NzAvMi8xIDQzMi8zLzEgNDMxLzQvMQpmIDQ3MC85LzEgNDcxLzEwLzEgNDMzLzExLzEgNDMyLzEyLzEKZiA0NzEvMS8xIDQ3Mi8yLzEgNDM0LzMvMSA0MzMvNC8xCmYgNDcyLzkvMSA0NzMvMTAvMSA0MzUvMTEvMSA0MzQvMTIvMQpmIDQ3My81LzEgNDc0LzYvMSA0MzYvNy8xIDQzNS84LzEKZiA0NzQvNS8xIDQ3NS82LzEgNDM3LzcvMSA0MzYvOC8xCmYgNDc1LzUvMSA0NzYvNi8xIDQzOC83LzEgNDM3LzgvMQpmIDQ3Ni85LzEgNDc3LzEwLzEgNDM5LzExLzEgNDM4LzEyLzEKZiA0NzcvNS8xIDQ3OC82LzEgNDQwLzcvMSA0MzkvOC8xCmYgNDc4LzUvMSA0NzkvNi8xIDQ0MS83LzEgNDQwLzgvMQpmIDQ3OS8xLzEgNDgwLzIvMSA0NDIvMy8xIDQ0MS80LzEKZiA0ODAvMS8xIDQ4MS8yLzEgNDQzLzMvMSA0NDIvNC8xCmYgNDgxLzEvMSA0ODIvMi8xIDQ0NC8zLzEgNDQzLzQvMQpmIDQ4Mi85LzEgNDgzLzEwLzEgNDQ1LzExLzEgNDQ0LzEyLzEKZiA0ODMvOS8xIDQ4NC8xMC8xIDQ0Ni8xMS8xIDQ0NS8xMi8xCmYgNDg0LzUvMSA0ODUvNi8xIDQ0Ny83LzEgNDQ2LzgvMQpmIDQ4NS81LzEgNDg2LzYvMSA0NDgvNy8xIDQ0Ny84LzEKZiA0ODYvOS8xIDQ4Ny8xMC8xIDQ0OS8xMS8xIDQ0OC8xMi8xCmYgNDg3LzkvMSA0ODgvMTAvMSA0NTAvMTEvMSA0NDkvMTIvMQpmIDQ4OC81LzEgNDg5LzYvMSA0NTEvNy8xIDQ1MC84LzEKZiA0ODkvMS8xIDQ5MC8yLzEgNDUyLzMvMSA0NTEvNC8xCmYgNDkwLzUvMSA0OTEvNi8xIDQ1My83LzEgNDUyLzgvMQpmIDQ5MS8xLzEgNDkyLzIvMSA0NTQvMy8xIDQ1My80LzEKZiA0OTMvMTMvMSA0OTQvMTQvMSA0NTkvMTUvMSA0NTgvMTYvMQpmIDQ5NC81LzEgNDk1LzYvMSA0NjAvNy8xIDQ1OS84LzEKZiA0OTUvMTMvMSA0OTYvMTQvMSA0NjEvMTUvMSA0NjAvMTYvMQpmIDQ5Ni81LzEgNDk3LzYvMSA0NjIvNy8xIDQ2MS84LzEKZiA0OTcvMTMvMSA0OTgvMTQvMSA0NjMvMTUvMSA0NjIvMTYvMQpmIDQ5OC81LzEgNDk5LzYvMSA0NjQvNy8xIDQ2My84LzEKZiA1MDAvMTMvMSA1MDEvMTQvMSA0NjYvMTUvMSA0NjUvMTYvMQpmIDUwMS8xMy8xIDUwMi8xNC8xIDQ2Ny8xNS8xIDQ2Ni8xNi8xCmYgNTAyLzUvMSA1MDMvNi8xIDQ2OC83LzEgNDY3LzgvMQpmIDUwMy8xLzEgNTA0LzIvMSA0NjkvMy8xIDQ2OC80LzEKZiA1MDQvOS8xIDUwNS8xMC8xIDQ3MC8xMS8xIDQ2OS8xMi8xCmYgNTA1LzkvMSA1MDYvMTAvMSA0NzEvMTEvMSA0NzAvMTIvMQpmIDUwNi81LzEgNTA3LzYvMSA0NzIvNy8xIDQ3MS84LzEKZiA1MDcvMS8xIDUwOC8yLzEgNDczLzMvMSA0NzIvNC8xCmYgNTA4LzkvMSA1MDkvMTAvMSA0NzQvMTEvMSA0NzMvMTIvMQpmIDUwOS85LzEgNTEwLzEwLzEgNDc1LzExLzEgNDc0LzEyLzEKZiA1MTAvOS8xIDUxMS8xMC8xIDQ3Ni8xMS8xIDQ3NS8xMi8xCmYgNTExLzEvMSA1MTIvMi8xIDQ3Ny8zLzEgNDc2LzQvMQpmIDUxMi81LzEgNTEzLzYvMSA0NzgvNy8xIDQ3Ny84LzEKZiA1MTMvNS8xIDUxNC82LzEgNDc5LzcvMSA0NzgvOC8xCmYgNTE0LzEvMSA1MTUvMi8xIDQ4MC8zLzEgNDc5LzQvMQpmIDUxNS85LzEgNTE2LzEwLzEgNDgxLzExLzEgNDgwLzEyLzEKZiA1MTYvMS8xIDUxNy8yLzEgNDgyLzMvMSA0ODEvNC8xCmYgNTE3LzkvMSA1MTgvMTAvMSA0ODMvMTEvMSA0ODIvMTIvMQpmIDUxOC85LzEgNTE5LzEwLzEgNDg0LzExLzEgNDgzLzEyLzEKZiA1MTkvOS8xIDUyMC8xMC8xIDQ4NS8xMS8xIDQ4NC8xMi8xCmYgNTIwLzEvMSA1MjEvMi8xIDQ4Ni8zLzEgNDg1LzQvMQpmIDUyMS81LzEgNTIyLzYvMSA0ODcvNy8xIDQ4Ni84LzEKZiA1MjIvNS8xIDUyMy82LzEgNDg4LzcvMSA0ODcvOC8xCmYgNTIzLzUvMSA1MjQvNi8xIDQ4OS83LzEgNDg4LzgvMQpmIDUyNC81LzEgNTI1LzYvMSA0OTAvNy8xIDQ4OS84LzEKZiA1MjUvNS8xIDUyNi82LzEgNDkxLzcvMSA0OTAvOC8xCmYgNTI2LzUvMSA1MjcvNi8xIDQ5Mi83LzEgNDkxLzgvMQpmIDUyOC8xMy8xIDUyOS8xNC8xIDUwMS8xNS8xIDUwMC8xNi8xCmYgNTI5LzEzLzEgNTMwLzE0LzEgNTAyLzE1LzEgNTAxLzE2LzEKZiA1MzAvNS8xIDUzMS82LzEgNTAzLzcvMSA1MDIvOC8xCmYgNTMxLzEvMSA1MzIvMi8xIDUwNC8zLzEgNTAzLzQvMQpmIDUzMi8xLzEgNTMzLzIvMSA1MDUvMy8xIDUwNC80LzEKZiA1MzMvOS8xIDUzNC8xMC8xIDUwNi8xMS8xIDUwNS8xMi8xCmYgNTM0LzkvMSA1MzUvMTAvMSA1MDcvMTEvMSA1MDYvMTIvMQpmIDUzNS8xLzEgNTM2LzIvMSA1MDgvMy8xIDUwNy80LzEKZiA1MzYvNS8xIDUzNy82LzEgNTA5LzcvMSA1MDgvOC8xCmYgNTM3LzEvMSA1MzgvMi8xIDUxMC8zLzEgNTA5LzQvMQpmIDUzOC81LzEgNTM5LzYvMSA1MTEvNy8xIDUxMC84LzEKZiA1MzkvMS8xIDU0MC8yLzEgNTEyLzMvMSA1MTEvNC8xCmYgNTQwLzUvMSA1NDEvNi8xIDUxMy83LzEgNTEyLzgvMQpmIDU0MS85LzEgNTQyLzEwLzEgNTE0LzExLzEgNTEzLzEyLzEKZiA1NDIvMS8xIDU0My8yLzEgNTE1LzMvMSA1MTQvNC8xCmYgNTQzLzUvMSA1NDQvNi8xIDUxNi83LzEgNTE1LzgvMQpmIDU0NC8xLzEgNTQ1LzIvMSA1MTcvMy8xIDUxNi80LzEKZiA1NDUvOS8xIDU0Ni8xMC8xIDUxOC8xMS8xIDUxNy8xMi8xCmYgNTQ2LzEvMSA1NDcvMi8xIDUxOS8zLzEgNTE4LzQvMQpmIDU0Ny8xLzEgNTQ4LzIvMSA1MjAvMy8xIDUxOS80LzEKZiA1NDgvNS8xIDU0OS82LzEgNTIxLzcvMSA1MjAvOC8xCmYgNTQ5LzEvMSA1NTAvMi8xIDUyMi8zLzEgNTIxLzQvMQpmIDU1MC85LzEgNTUxLzEwLzEgNTIzLzExLzEgNTIyLzEyLzEKZiA1NTEvOS8xIDU1Mi8xMC8xIDUyNC8xMS8xIDUyMy8xMi8xCmYgNTUyLzUvMSA1NTMvNi8xIDUyNS83LzEgNTI0LzgvMQpmIDU1My85LzEgNTU0LzEwLzEgNTI2LzExLzEgNTI1LzEyLzEKZiA1NTQvOS8xIDU1NS8xMC8xIDUyNy8xMS8xIDUyNi8xMi8xCmYgNTU2LzEzLzEgNTU3LzE0LzEgNTI5LzE1LzEgNTI4LzE2LzEKZiA1NTcvMTMvMSA1NTgvMTQvMSA1MzAvMTUvMSA1MjkvMTYvMQpmIDU1OC81LzEgNTU5LzYvMSA1MzEvNy8xIDUzMC84LzEKZiA1NTkvMS8xIDU2MC8yLzEgNTMyLzMvMSA1MzEvNC8xCmYgNTYwLzEvMSA1NjEvMi8xIDUzMy8zLzEgNTMyLzQvMQpmIDU2MS81LzEgNTYyLzYvMSA1MzQvNy8xIDUzMy84LzEKZiA1NjIvNS8xIDU2My82LzEgNTM1LzcvMSA1MzQvOC8xCmYgNTYzLzEvMSA1NjQvMi8xIDUzNi8zLzEgNTM1LzQvMQpmIDU2NC8xLzEgNTY1LzIvMSA1MzcvMy8xIDUzNi80LzEKZiA1NjUvNS8xIDU2Ni82LzEgNTM4LzcvMSA1MzcvOC8xCmYgNTY2LzUvMSA1NjcvNi8xIDUzOS83LzEgNTM4LzgvMQpmIDU2Ny8xLzEgNTY4LzIvMSA1NDAvMy8xIDUzOS80LzEKZiA1NjgvNS8xIDU2OS82LzEgNTQxLzcvMSA1NDAvOC8xCmYgNTY5LzEvMSA1NzAvMi8xIDU0Mi8zLzEgNTQxLzQvMQpmIDU3MC85LzEgNTcxLzEwLzEgNTQzLzExLzEgNTQyLzEyLzEKZiA1NzEvMS8xIDU3Mi8yLzEgNTQ0LzMvMSA1NDMvNC8xCmYgNTcyLzUvMSA1NzMvNi8xIDU0NS83LzEgNTQ0LzgvMQpmIDU3My8xLzEgNTc0LzIvMSA1NDYvMy8xIDU0NS80LzEKZiA1NzQvOS8xIDU3NS8xMC8xIDU0Ny8xMS8xIDU0Ni8xMi8xCmYgNTc1LzUvMSA1NzYvNi8xIDU0OC83LzEgNTQ3LzgvMQpmIDU3Ni81LzEgNTc3LzYvMSA1NDkvNy8xIDU0OC84LzEKZiA1NzcvMS8xIDU3OC8yLzEgNTUwLzMvMSA1NDkvNC8xCmYgNTc4LzEvMSA1NzkvMi8xIDU1MS8zLzEgNTUwLzQvMQpmIDU3OS85LzEgNTgwLzEwLzEgNTUyLzExLzEgNTUxLzEyLzEKZiA1ODAvNS8xIDU4MS82LzEgNTUzLzcvMSA1NTIvOC8xCmYgNTgxLzEvMSA1ODIvMi8xIDU1NC8zLzEgNTUzLzQvMQpmIDU4Mi81LzEgNTgzLzYvMSA1NTUvNy8xIDU1NC84LzEKZiA1ODQvMS8xIDU4NS8yLzEgNTY4LzMvMSA1NjcvNC8xCmYgNTg1LzUvMSA1ODYvNi8xIDU2OS83LzEgNTY4LzgvMQpmIDU4Ni81LzEgNTg3LzYvMSA1NzAvNy8xIDU2OS84LzEKZiA1ODcvOS8xIDU4OC8xMC8xIDU3MS8xMS8xIDU3MC8xMi8xCmYgNTg4LzEvMSA1ODkvMi8xIDU3Mi8zLzEgNTcxLzQvMQpmIDU4OS85LzEgNTkwLzEwLzEgNTczLzExLzEgNTcyLzEyLzEKZiA1OTAvMS8xIDU5MS8yLzEgNTc0LzMvMSA1NzMvNC8xCmYgNTkxLzUvMSA1OTIvNi8xIDU3NS83LzEgNTc0LzgvMQpmIDU5Mi85LzEgNTkzLzEwLzEgNTc2LzExLzEgNTc1LzEyLzEKZiA1OTMvMS8xIDU5NC8yLzEgNTc3LzMvMSA1NzYvNC8xCmYgNTk0LzkvMSA1OTUvMTAvMSA1NzgvMTEvMSA1NzcvMTIvMQpmIDU5NS8xLzEgNTk2LzIvMSA1NzkvMy8xIDU3OC80LzEKZiA1OTYvNS8xIDU5Ny82LzEgNTgwLzcvMSA1NzkvOC8xCmYgNTk3LzEvMSA1OTgvMi8xIDU4MS8zLzEgNTgwLzQvMQpmIDU5OC85LzEgNTk5LzEwLzEgNTgyLzExLzEgNTgxLzEyLzEKZiA1OTkvNS8xIDYwMC82LzEgNTgzLzcvMSA1ODIvOC8xCmYgNjAxLzUvMSA2MDIvNi8xIDU4NS83LzEgNTg0LzgvMQpmIDYwMi8xLzEgNjAzLzIvMSA1ODYvMy8xIDU4NS80LzEKZiA2MDMvMS8xIDYwNC8yLzEgNTg3LzMvMSA1ODYvNC8xCmYgNjA0LzEvMSA2MDUvMi8xIDU4OC8zLzEgNTg3LzQvMQpmIDYwNS81LzEgNjA2LzYvMSA1ODkvNy8xIDU4OC84LzEKZiA2MDYvOS8xIDYwNy8xMC8xIDU5MC8xMS8xIDU4OS8xMi8xCmYgNjA3LzkvMSA2MDgvMTAvMSA1OTEvMTEvMSA1OTAvMTIvMQpmIDYwOC8xLzEgNjA5LzIvMSA1OTIvMy8xIDU5MS80LzEKZiA2MDkvMS8xIDYxMC8yLzEgNTkzLzMvMSA1OTIvNC8xCmYgNjEwLzkvMSA2MTEvMTAvMSA1OTQvMTEvMSA1OTMvMTIvMQpmIDYxMS8xLzEgNjEyLzIvMSA1OTUvMy8xIDU5NC80LzEKZiA2MTIvNS8xIDYxMy82LzEgNTk2LzcvMSA1OTUvOC8xCmYgNjEzLzEvMSA2MTQvMi8xIDU5Ny8zLzEgNTk2LzQvMQpmIDYxNC85LzEgNjE1LzEwLzEgNTk4LzExLzEgNTk3LzEyLzEKZiA2MTUvNS8xIDYxNi82LzEgNTk5LzcvMSA1OTgvOC8xCmYgNjE2LzEvMSA2MTcvMi8xIDYwMC8zLzEgNTk5LzQvMQpmIDYxOC8xLzEgNjE5LzIvMSA2MDIvMy8xIDYwMS80LzEKZiA2MTkvNS8xIDYyMC82LzEgNjAzLzcvMSA2MDIvOC8xCmYgNjIwLzUvMSA2MjEvNi8xIDYwNC83LzEgNjAzLzgvMQpmIDYyMS85LzEgNjIyLzEwLzEgNjA1LzExLzEgNjA0LzEyLzEKZiA2MjIvNS8xIDYyMy82LzEgNjA2LzcvMSA2MDUvOC8xCmYgNjIzLzEvMSA2MjQvMi8xIDYwNy8zLzEgNjA2LzQvMQpmIDYyNC81LzEgNjI1LzYvMSA2MDgvNy8xIDYwNy84LzEKZiA2MjUvNS8xIDYyNi82LzEgNjA5LzcvMSA2MDgvOC8xCmYgNjI2LzUvMSA2MjcvNi8xIDYxMC83LzEgNjA5LzgvMQpmIDYyNy85LzEgNjI4LzEwLzEgNjExLzExLzEgNjEwLzEyLzEKZiA2MjgvNS8xIDYyOS82LzEgNjEyLzcvMSA2MTEvOC8xCmYgNjI5LzUvMSA2MzAvNi8xIDYxMy83LzEgNjEyLzgvMQpmIDYzMC8xLzEgNjMxLzIvMSA2MTQvMy8xIDYxMy80LzEKZiA2MzEvOS8xIDYzMi8xMC8xIDYxNS8xMS8xIDYxNC8xMi8xCmYgNjMyLzUvMSA2MzMvNi8xIDYxNi83LzEgNjE1LzgvMQpmIDYzMy81LzEgNjM0LzYvMSA2MTcvNy8xIDYxNi84LzEKZiA2MzUvOS8xIDYzNi8xMC8xIDYxOS8xMS8xIDYxOC8xMi8xCmYgNjM2LzEvMSA2MzcvMi8xIDYyMC8zLzEgNjE5LzQvMQpmIDYzNy8xLzEgNjM4LzIvMSA2MjEvMy8xIDYyMC80LzEKZiA2MzgvNS8xIDYzOS82LzEgNjIyLzcvMSA2MjEvOC8xCmYgNjM5LzkvMSA2NDAvMTAvMSA2MjMvMTEvMSA2MjIvMTIvMQpmIDY0MC81LzEgNjQxLzYvMSA2MjQvNy8xIDYyMy84LzEKZiA2NDEvOS8xIDY0Mi8xMC8xIDYyNS8xMS8xIDYyNC8xMi8xCmYgNjQyLzEvMSA2NDMvMi8xIDYyNi8zLzEgNjI1LzQvMQpmIDY0My81LzEgNjQ0LzYvMSA2MjcvNy8xIDYyNi84LzEKZiA2NDQvOS8xIDY0NS8xMC8xIDYyOC8xMS8xIDYyNy8xMi8xCmYgNjQ1LzEvMSA2NDYvMi8xIDYyOS8zLzEgNjI4LzQvMQpmIDY0Ni8xLzEgNjQ3LzIvMSA2MzAvMy8xIDYyOS80LzEKZiA2NDcvOS8xIDY0OC8xMC8xIDYzMS8xMS8xIDYzMC8xMi8xCmYgNjQ4LzEvMSA2NDkvMi8xIDYzMi8zLzEgNjMxLzQvMQpmIDY0OS8xLzEgNjUwLzIvMSA2MzMvMy8xIDYzMi80LzEKZiA2NTAvNS8xIDY1MS82LzEgNjM0LzcvMSA2MzMvOC8xCmYgNjUyLzEvMSA2NTMvMi8xIDYzNi8zLzEgNjM1LzQvMQpmIDY1My81LzEgNjU0LzYvMSA2MzcvNy8xIDYzNi84LzEKZiA2NTQvNS8xIDY1NS82LzEgNjM4LzcvMSA2MzcvOC8xCmYgNjU1LzkvMSA2NTYvMTAvMSA2MzkvMTEvMSA2MzgvMTIvMQpmIDY1Ni8xLzEgNjU3LzIvMSA2NDAvMy8xIDYzOS80LzEKZiA2NTcvOS8xIDY1OC8xMC8xIDY0MS8xMS8xIDY0MC8xMi8xCmYgNjU4LzUvMSA2NTkvNi8xIDY0Mi83LzEgNjQxLzgvMQpmIDY1OS85LzEgNjYwLzEwLzEgNjQzLzExLzEgNjQyLzEyLzEKZiA2NjAvMS8xIDY2MS8yLzEgNjQ0LzMvMSA2NDMvNC8xCmYgNjYxLzUvMSA2NjIvNi8xIDY0NS83LzEgNjQ0LzgvMQpmIDY2Mi81LzEgNjYzLzYvMSA2NDYvNy8xIDY0NS84LzEKZiA2NjMvOS8xIDY2NC8xMC8xIDY0Ny8xMS8xIDY0Ni8xMi8xCmYgNjY0LzEvMSA2NjUvMi8xIDY0OC8zLzEgNjQ3LzQvMQpmIDY2NS8xLzEgNjY2LzIvMSA2NDkvMy8xIDY0OC80LzEKZiA2NjYvMS8xIDY2Ny8yLzEgNjUwLzMvMSA2NDkvNC8xCmYgNjY3LzkvMSA2NjgvMTAvMSA2NTEvMTEvMSA2NTAvMTIvMQpmIDY2OS81LzEgNjcwLzYvMSA2NTMvNy8xIDY1Mi84LzEKZiA2NzAvOS8xIDY3MS8xMC8xIDY1NC8xMS8xIDY1My8xMi8xCmYgNjcxLzEvMSA2NzIvMi8xIDY1NS8zLzEgNjU0LzQvMQpmIDY3Mi85LzEgNjczLzEwLzEgNjU2LzExLzEgNjU1LzEyLzEKZiA2NzMvOS8xIDY3NC8xMC8xIDY1Ny8xMS8xIDY1Ni8xMi8xCmYgNjc0LzkvMSA2NzUvMTAvMSA2NTgvMTEvMSA2NTcvMTIvMQpmIDY3NS85LzEgNjc2LzEwLzEgNjU5LzExLzEgNjU4LzEyLzEKZiA2NzYvNS8xIDY3Ny82LzEgNjYwLzcvMSA2NTkvOC8xCmYgNjc3LzUvMSA2NzgvNi8xIDY2MS83LzEgNjYwLzgvMQpmIDY3OC8xLzEgNjc5LzIvMSA2NjIvMy8xIDY2MS80LzEKZiA2NzkvNS8xIDY4MC82LzEgNjYzLzcvMSA2NjIvOC8xCmYgNjgwLzkvMSA2ODEvMTAvMSA2NjQvMTEvMSA2NjMvMTIvMQpmIDY4MS8xLzEgNjgyLzIvMSA2NjUvMy8xIDY2NC80LzEKZiA2ODIvNS8xIDY4My82LzEgNjY2LzcvMSA2NjUvOC8xCmYgNjgzLzEvMSA2ODQvMi8xIDY2Ny8zLzEgNjY2LzQvMQpmIDY4NC8xLzEgNjg1LzIvMSA2NjgvMy8xIDY2Ny80LzEKZiA2ODYvMS8xIDY4Ny8yLzEgNjcwLzMvMSA2NjkvNC8xCmYgNjg3LzkvMSA2ODgvMTAvMSA2NzEvMTEvMSA2NzAvMTIvMQpmIDY4OC8xLzEgNjg5LzIvMSA2NzIvMy8xIDY3MS80LzEKZiA2ODkvNS8xIDY5MC82LzEgNjczLzcvMSA2NzIvOC8xCmYgNjkwLzkvMSA2OTEvMTAvMSA2NzQvMTEvMSA2NzMvMTIvMQpmIDY5MS8xLzEgNjkyLzIvMSA2NzUvMy8xIDY3NC80LzEKZiA2OTIvMS8xIDY5My8yLzEgNjc2LzMvMSA2NzUvNC8xCmYgNjkzLzEvMSA2OTQvMi8xIDY3Ny8zLzEgNjc2LzQvMQpmIDY5NC85LzEgNjk1LzEwLzEgNjc4LzExLzEgNjc3LzEyLzEKZiA2OTUvMS8xIDY5Ni8yLzEgNjc5LzMvMSA2NzgvNC8xCmYgNjk2LzkvMSA2OTcvMTAvMSA2ODAvMTEvMSA2NzkvMTIvMQpmIDY5Ny81LzEgNjk4LzYvMSA2ODEvNy8xIDY4MC84LzEKZiA2OTgvMS8xIDY5OS8yLzEgNjgyLzMvMSA2ODEvNC8xCmYgNjk5LzEvMSA3MDAvMi8xIDY4My8zLzEgNjgyLzQvMQpmIDcwMC81LzEgNzAxLzYvMSA2ODQvNy8xIDY4My84LzEKZiA3MDEvOS8xIDcwMi8xMC8xIDY4NS8xMS8xIDY4NC8xMi8xCgpnIG1lc2hfMDAwMgpmIDMxNC85LzEgMzE1LzEwLzEgMjcwLzExLzEgMjY5LzEyLzEKZiAzNzEvOS8xIDM3My8xMC8xIDM3NC8xMS8xIDM3Mi8xMi8xCmYgNDkzLzkvMSA0OTQvMTAvMSA0NTkvMTEvMSA0NTgvMTIvMQpmIDQ5OC85LzEgNDk5LzEwLzEgNDY0LzExLzEgNDYzLzEyLzEKCmcgbWVzaF8wMDAzCmYgNDQzLzEvMSA0NDQvMi8xIDM5Mi8zLzEgMzkxLzQvMQpmIDQ4MS8xLzEgNDgyLzIvMSA0NDQvMy8xIDQ0My80LzEKZiA1NDUvMS8xIDU0Ni8yLzEgNTE4LzMvMSA1MTcvNC8xCmYgNTczLzEvMSA1NzQvMi8xIDU0Ni8zLzEgNTQ1LzQvMQoKZyBtZXNoXzAwMDQKZiA3MDMvMjEvMSA0LzIyLzEgNzA0LzIzLzEgNzA1LzI0LzEKZiA0LzkvMSAzLzEwLzEgNzA2LzExLzEgNzA0LzEyLzEKZiAzLzkvMSA2LzEwLzEgNzA3LzExLzEgNzA2LzEyLzEKZiA2LzkvMSA4LzEwLzEgNzA4LzExLzEgNzA3LzEyLzEKZiA4LzkvMSAxMC8xMC8xIDcwOS8xMS8xIDcwOC8xMi8xCmYgMTAvOS8xIDEyLzEwLzEgNzEwLzExLzEgNzA5LzEyLzEKZiAxMi85LzEgMTQvMTAvMSA3MTEvMTEvMSA3MTAvMTIvMQpmIDE0LzkvMSAxNi8xMC8xIDcxMi8xMS8xIDcxMS8xMi8xCmYgMTYvOS8xIDE4LzEwLzEgNzEzLzExLzEgNzEyLzEyLzEKZiAxOC85LzEgMjAvMTAvMSA3MTQvMTEvMSA3MTMvMTIvMQpmIDIwLzkvMSAyMi8xMC8xIDcxNS8xMS8xIDcxNC8xMi8xCmYgMjIvOS8xIDI0LzEwLzEgNzE2LzExLzEgNzE1LzEyLzEKZiAyNC85LzEgMjYvMTAvMSA3MTcvMTEvMSA3MTYvMTIvMQpmIDI2LzkvMSAyOC8xMC8xIDcxOC8xMS8xIDcxNy8xMi8xCmYgMjgvOS8xIDMwLzEwLzEgNzE5LzExLzEgNzE4LzEyLzEKZiAzMC85LzEgMzIvMTAvMSA3MjAvMTEvMSA3MTkvMTIvMQpmIDMyLzkvMSAzNC8xMC8xIDcyMS8xMS8xIDcyMC8xMi8xCmYgMzQvOS8xIDM2LzEwLzEgNzIyLzExLzEgNzIxLzEyLzEKZiAzNi85LzEgMzgvMTAvMSA3MjMvMTEvMSA3MjIvMTIvMQpmIDM4LzkvMSA0MC8xMC8xIDcyNC8xMS8xIDcyMy8xMi8xCmYgNDAvOS8xIDQyLzEwLzEgNzI1LzExLzEgNzI0LzEyLzEKZiA0Mi85LzEgNDQvMTAvMSA3MjYvMTEvMSA3MjUvMTIvMQpmIDQ0LzkvMSA0Ni8xMC8xIDcyNy8xMS8xIDcyNi8xMi8xCmYgNDYvOS8xIDQ4LzEwLzEgNzI4LzExLzEgNzI3LzEyLzEKZiA0OC85LzEgNTAvMTAvMSA3MjkvMTEvMSA3MjgvMTIvMQpmIDUwLzkvMSA1Mi8xMC8xIDczMC8xMS8xIDcyOS8xMi8xCmYgNTIvOS8xIDU0LzEwLzEgNzMxLzExLzEgNzMwLzEyLzEKZiA1NC85LzEgNTYvMTAvMSA3MzIvMTEvMSA3MzEvMTIvMQpmIDU2LzkvMSA1OC8xMC8xIDczMy8xMS8xIDczMi8xMi8xCmYgNTgvOS8xIDYwLzEwLzEgNzM0LzExLzEgNzMzLzEyLzEKZiA2MC85LzEgNjIvMTAvMSA3MzUvMTEvMSA3MzQvMTIvMQpmIDYyLzkvMSA2NC8xMC8xIDczNi8xMS8xIDczNS8xMi8xCmYgNjQvOS8xIDY2LzEwLzEgNzM3LzExLzEgNzM2LzEyLzEKZiA2Ni85LzEgNjgvMTAvMSA3MzgvMTEvMSA3MzcvMTIvMQpmIDY4LzkvMSA3MC8xMC8xIDczOS8xMS8xIDczOC8xMi8xCmYgNzAvOS8xIDcyLzEwLzEgNzQwLzExLzEgNzM5LzEyLzEKZiA3Mi85LzEgNzQvMTAvMSA3NDEvMTEvMSA3NDAvMTIvMQpmIDc0LzkvMSA3Ni8xMC8xIDc0Mi8xMS8xIDc0MS8xMi8xCmYgNzYvOS8xIDc4LzEwLzEgNzQzLzExLzEgNzQyLzEyLzEKZiA3OC85LzEgODAvMTAvMSA3NDQvMTEvMSA3NDMvMTIvMQpmIDgwLzkvMSA4Mi8xMC8xIDc0NS8xMS8xIDc0NC8xMi8xCmYgODIvOS8xIDg0LzEwLzEgNzQ2LzExLzEgNzQ1LzEyLzEKZiA4NC85LzEgODYvMTAvMSA3NDcvMTEvMSA3NDYvMTIvMQpmIDg2LzkvMSA4OC8xMC8xIDc0OC8xMS8xIDc0Ny8xMi8xCmYgODgvOS8xIDkwLzEwLzEgNzQ5LzExLzEgNzQ4LzEyLzEKZiA5MC8yNS8xIDc1MC8yNi8xIDc1MS8yNy8xIDc0OS8yOC8xCmYgNzUyLzEvMSAxLzIvMSA0LzMvMSA3MDMvNC8xCmYgODkvMS8xIDc1My8yLzEgNzUwLzMvMSA5MC80LzEKZiA3NTQvMS8xIDkxLzIvMSAxLzMvMSA3NTIvNC8xCmYgMTM1LzEvMSA3NTUvMi8xIDc1My8zLzEgODkvNC8xCmYgNzU2LzEvMSAxMzYvMi8xIDkxLzMvMSA3NTQvNC8xCmYgMTgwLzEvMSA3NTcvMi8xIDc1NS8zLzEgMTM1LzQvMQpmIDc1OC8xLzEgMTgxLzIvMSAxMzYvMy8xIDc1Ni80LzEKZiAyMjUvMS8xIDc1OS8yLzEgNzU3LzMvMSAxODAvNC8xCmYgNzYwLzEvMSAyMjYvMi8xIDE4MS8zLzEgNzU4LzQvMQpmIDI3MC8xLzEgNzYxLzIvMSA3NTkvMy8xIDIyNS80LzEKZiA3NjIvMS8xIDI3MS8yLzEgMjI2LzMvMSA3NjAvNC8xCmYgMzE1LzEvMSAzNjIvMi8xIDc2MS8zLzEgMjcwLzQvMQpmIDc2My8xLzEgMzE2LzIvMSAyNzEvMy8xIDc2Mi80LzEKZiA3NjQvMS8xIDM3NS8yLzEgMzE2LzMvMSA3NjMvNC8xCmYgNzY1LzEvMSA0MjcvMi8xIDM3NS8zLzEgNzY0LzQvMQpmIDQ1NC8yMS8xIDc2Ni8yMi8xIDQwMy8yMy8xIDQwMi8yNC8xCmYgNzY2LzkvMSA3NjcvMTAvMSA0MDQvMTEvMSA0MDMvMTIvMQpmIDc2Ny85LzEgNzY4LzEwLzEgNDA1LzExLzEgNDA0LzEyLzEKZiA3NjgvOS8xIDc2OS8xMC8xIDQwNi8xMS8xIDQwNS8xMi8xCmYgNzY5LzkvMSA3NzAvMTAvMSA0MDcvMTEvMSA0MDYvMTIvMQpmIDc3MC85LzEgNzcxLzEwLzEgNDA4LzExLzEgNDA3LzEyLzEKZiA3NzEvOS8xIDc3Mi8xMC8xIDQwOS8xMS8xIDQwOC8xMi8xCmYgNzcyLzkvMSA3NzMvMTAvMSA0MTAvMTEvMSA0MDkvMTIvMQpmIDc3My85LzEgNzc0LzEwLzEgNDExLzExLzEgNDEwLzEyLzEKZiA3NzQvOS8xIDc3NS8xMC8xIDQxMi8xMS8xIDQxMS8xMi8xCmYgNzc1LzkvMSA0NTUvMTAvMSA0MTMvMTEvMSA0MTIvMTIvMQpmIDQ1NS85LzEgNDU2LzEwLzEgNDE0LzExLzEgNDEzLzEyLzEKZiA0NTYvOS8xIDQ1Ny8xMC8xIDQxNS8xMS8xIDQxNC8xMi8xCmYgNDU3LzkvMSA3NzYvMTAvMSA0MTYvMTEvMSA0MTUvMTIvMQpmIDc3Ni85LzEgNzc3LzEwLzEgNDE3LzExLzEgNDE2LzEyLzEKZiA3NzcvOS8xIDc3OC8xMC8xIDQxOC8xMS8xIDQxNy8xMi8xCmYgNzc4LzkvMSA3NzkvMTAvMSA0MTkvMTEvMSA0MTgvMTIvMQpmIDc3OS8yOS8xIDQ1OC8zMC8xIDQyMC8zMS8xIDQxOS8zMi8xCmYgNzgwLzEvMSA0NjUvMi8xIDQyNy8zLzEgNzY1LzQvMQpmIDQ5Mi8xLzEgNzgxLzIvMSA3NjYvMy8xIDQ1NC80LzEKZiA3ODIvMS8xIDUwMC8yLzEgNDY1LzMvMSA3ODAvNC8xCmYgNTI3LzEvMSA3ODMvMi8xIDc4MS8zLzEgNDkyLzQvMQpmIDc4NC8xLzEgNTI4LzIvMSA1MDAvMy8xIDc4Mi80LzEKZiA1NTUvMS8xIDc4NS8yLzEgNzgzLzMvMSA1MjcvNC8xCmYgNzg2LzEvMSA1NTYvMi8xIDUyOC8zLzEgNzg0LzQvMQpmIDU4My8xLzEgNzg3LzIvMSA3ODUvMy8xIDU1NS80LzEKZiA3ODgvMTcvMSA3ODkvMTgvMSA1NTYvMTkvMSA3ODYvMjAvMQpmIDc4OS85LzEgNzkwLzEwLzEgNTU3LzExLzEgNTU2LzEyLzEKZiA3OTAvOS8xIDc5MS8xMC8xIDU1OC8xMS8xIDU1Ny8xMi8xCmYgNzkxLzkvMSA3OTIvMTAvMSA1NTkvMTEvMSA1NTgvMTIvMQpmIDc5Mi85LzEgNzkzLzEwLzEgNTYwLzExLzEgNTU5LzEyLzEKZiA3OTMvOS8xIDc5NC8xMC8xIDU2MS8xMS8xIDU2MC8xMi8xCmYgNzk0LzkvMSA3OTUvMTAvMSA1NjIvMTEvMSA1NjEvMTIvMQpmIDc5NS85LzEgNzk2LzEwLzEgNTYzLzExLzEgNTYyLzEyLzEKZiA3OTYvOS8xIDc5Ny8xMC8xIDU2NC8xMS8xIDU2My8xMi8xCmYgNzk3LzkvMSA3OTgvMTAvMSA1NjUvMTEvMSA1NjQvMTIvMQpmIDc5OC85LzEgNzk5LzEwLzEgNTY2LzExLzEgNTY1LzEyLzEKZiA3OTkvMjUvMSA1ODQvMjYvMSA1NjcvMjcvMSA1NjYvMjgvMQpmIDYwMC8xLzEgODAwLzIvMSA3ODcvMy8xIDU4My80LzEKZiA4MDEvMS8xIDYwMS8yLzEgNTg0LzMvMSA3OTkvNC8xCmYgNjE3LzEvMSA4MDIvMi8xIDgwMC8zLzEgNjAwLzQvMQpmIDgwMy8xLzEgNjE4LzIvMSA2MDEvMy8xIDgwMS80LzEKZiA2MzQvMS8xIDgwNC8yLzEgODAyLzMvMSA2MTcvNC8xCmYgODA1LzEvMSA2MzUvMi8xIDYxOC8zLzEgODAzLzQvMQpmIDY1MS8xLzEgODA2LzIvMSA4MDQvMy8xIDYzNC80LzEKZiA4MDcvMS8xIDY1Mi8yLzEgNjM1LzMvMSA4MDUvNC8xCmYgNjY4LzEvMSA4MDgvMi8xIDgwNi8zLzEgNjUxLzQvMQpmIDgwOS8xLzEgNjY5LzIvMSA2NTIvMy8xIDgwNy80LzEKZiA2ODUvMS8xIDgxMC8yLzEgODA4LzMvMSA2NjgvNC8xCmYgODExLzEvMSA2ODYvMi8xIDY2OS8zLzEgODA5LzQvMQpmIDcwMi8xLzEgODEyLzIvMSA4MTAvMy8xIDY4NS80LzEKZiA4MTMvMTcvMSA4MTQvMTgvMSA2ODYvMTkvMSA4MTEvMjAvMQpmIDgxNC85LzEgODE1LzEwLzEgNjg3LzExLzEgNjg2LzEyLzEKZiA4MTUvOS8xIDgxNi8xMC8xIDY4OC8xMS8xIDY4Ny8xMi8xCmYgODE2LzkvMSA4MTcvMTAvMSA2ODkvMTEvMSA2ODgvMTIvMQpmIDgxNy85LzEgODE4LzEwLzEgNjkwLzExLzEgNjg5LzEyLzEKZiA4MTgvOS8xIDgxOS8xMC8xIDY5MS8xMS8xIDY5MC8xMi8xCmYgODE5LzkvMSA4MjAvMTAvMSA2OTIvMTEvMSA2OTEvMTIvMQpmIDgyMC85LzEgODIxLzEwLzEgNjkzLzExLzEgNjkyLzEyLzEKZiA4MjEvOS8xIDgyMi8xMC8xIDY5NC8xMS8xIDY5My8xMi8xCmYgODIyLzkvMSA4MjMvMTAvMSA2OTUvMTEvMSA2OTQvMTIvMQpmIDgyMy85LzEgODI0LzEwLzEgNjk2LzExLzEgNjk1LzEyLzEKZiA4MjQvOS8xIDgyNS8xMC8xIDY5Ny8xMS8xIDY5Ni8xMi8xCmYgODI1LzkvMSA4MjYvMTAvMSA2OTgvMTEvMSA2OTcvMTIvMQpmIDgyNi85LzEgODI3LzEwLzEgNjk5LzExLzEgNjk4LzEyLzEKZiA4MjcvOS8xIDgyOC8xMC8xIDcwMC8xMS8xIDY5OS8xMi8xCmYgODI4LzkvMSA4MjkvMTAvMSA3MDEvMTEvMSA3MDAvMTIvMQpmIDgyOS85LzEgODMwLzEwLzEgNzAyLzExLzEgNzAxLzEyLzEKZiA4MzAvMjkvMSA4MzEvMzAvMSA4MTIvMzEvMSA3MDIvMzIvMQoKZyBtZXNoX3RpbGVfMDMwMQpmIDcwMy81LzEgNC82LzEgNzA0LzcvMSA3MDUvOC8xCgpnIG1lc2hfdGlsZV8wMzAyCmYgNzAzLzEvMSA0LzIvMSA3MDQvMy8xIDcwNS80LzEKCmcgbWVzaF90aWxlXzAyMDEKZiA3MDMvNS8xIDQvNi8xIDcwNC83LzEgNzA1LzgvMQoKZyBtZXNoX3RpbGVfMDIwMgpmIDcwMy8xLzEgNC8yLzEgNzA0LzMvMSA3MDUvNC8xCgpnIG1lc2hfdGlsZV8wMjAzCmYgNzAzLzkvMSA0LzEwLzEgNzA0LzExLzEgNzA1LzEyLzEKCmcgbWVzaF90aWxlXzA0MDEKZiA3MDMvMzMvMSA2LzM0LzEgNzA3LzM1LzEgNzA1LzM2LzEKCmcgbWVzaF90aWxlXzAyMDQKZiA3MDMvMTcvMSA0LzE4LzEgNzA0LzE5LzEgNzA1LzIwLzEKDQo=</ImportMesh>
+  <InternalTexture assetPath="Assets/Sprites/Textures/floorTiles.png" />
+  <InternalTexture assetPath="Assets/Sprites/Textures/objects.png" />
+  <InternalTexture assetPath="Assets/Sprites/Textures/thickWalls.png" />
+  <InternalTexture assetPath="Assets/Sprites/Textures/thinWalls.png" />
+  <InternalTexture assetPath="Assets/Sprites/Textures/testBiggerobjects.png" />
+</Tiled2Unity>
