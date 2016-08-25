@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Assets.Scripts
 {
-    public class MoveForward : MonoBehaviour
+    public class MoveBullet : MonoBehaviour
     {
         public float maxSpeed = 5f;
 
