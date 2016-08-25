@@ -17,10 +17,10 @@ public class PlayerMobility : MonoBehaviour {
     {
         //Input.GetKey(KeyCode.Space);
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            anim.SetTrigger("Attack");
-        }
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    anim.SetTrigger("Attack");
+        //}
     }
 
     void FixedUpdate()
