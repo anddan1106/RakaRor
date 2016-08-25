@@ -35,6 +35,8 @@ public class PlayerMobility : MonoBehaviour {
 
         float input = Input.GetAxis("Vertical");
         GetComponent<Rigidbody2D>().AddForce(gameObject.transform.up * speed * input);
+        float strafeInput = Input.GetAxis("Horizontal");
+        GetComponent<Rigidbody2D>().AddForce(gameObject.transform.right * speed * strafeInput);
         var obj = GetComponent<Rigidbody2D>();
         cam.transform.position = new Vector3(obj.transform.position.x, obj.transform.position.y, cam.transform.position.z);
     }
