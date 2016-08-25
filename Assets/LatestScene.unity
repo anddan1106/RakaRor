@@ -176,12 +176,6 @@ Prefab:
       propertyPath: cam
       value: 
       objectReference: {fileID: 2001370229}
-    - target: {fileID: 114000013669177032, guid: f1fe28b7f2a3b1848a2a312d36cb4ab2,
-        type: 2}
-      propertyPath: bulletPrefab
-      value: 
-      objectReference: {fileID: 1000010120574242, guid: 20dbfd3f67538734eb8f0cc7c28b54d0,
-        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1fe28b7f2a3b1848a2a312d36cb4ab2, type: 2}
   m_IsPrefabParent: 0
