@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: a10eabe11fab0874b891b56c193e9923
-timeCreated: 1472049774
+guid: e7e2bf2c0edaa784ba1cff24d6873e83
+timeCreated: 1472120857
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: projectilesheet_0
-    21300002: projectilesheet_1
-    21300004: projectilesheet_2
+    21300000: Projectile_Sprites_0
+    21300002: Projectile_Sprites_1
+    21300004: Projectile_Sprites_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -56,7 +56,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: projectilesheet_0
+      name: Projectile_Sprites_0
       rect:
         serializedVersion: 2
         x: 0
@@ -69,7 +69,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: projectilesheet_1
+      name: Projectile_Sprites_1
       rect:
         serializedVersion: 2
         x: 64
@@ -82,7 +82,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: projectilesheet_2
+      name: Projectile_Sprites_2
       rect:
         serializedVersion: 2
         x: 128
