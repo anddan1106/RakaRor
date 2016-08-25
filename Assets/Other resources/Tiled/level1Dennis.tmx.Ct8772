@@ -459,6 +459,7 @@
   <object id="61" gid="301" x="731.132" y="677.145" width="64" height="30.5"/>
   <object id="101" gid="302" x="1275.33" y="614" width="519.333" height="64"/>
   <object id="102" gid="302" x="762.457" y="614" width="418.878" height="64"/>
+  <object id="105" gid="301" x="2387.67" y="225.666" width="64" height="64"/>
   <object id="116" gid="302" x="2942.67" y="475.333" width="64" height="64"/>
   <object id="117" gid="302" x="3005.34" y="475.333" width="64" height="64"/>
   <object id="118" gid="302" x="3061.34" y="475.333" width="64" height="64"/>
