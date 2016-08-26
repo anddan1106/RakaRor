@@ -9,6 +9,7 @@ namespace Assets.Scripts
 
         public GameObject bulletPrefab;
         int bulletLayer;
+        public AudioClip shotSound;
 
         public float fireDelay = 0.25f;
         float cooldownTimer = 0;
@@ -29,6 +30,7 @@ namespace Assets.Scripts
             {
                 // SHOOT!
 
+                GetComponent<AudioSource>().PlayOneShot(shotSound); 
                 cooldownTimer = fireDelay;
 
                 Vector3 offset = transform.rotation * bulletOffset;
