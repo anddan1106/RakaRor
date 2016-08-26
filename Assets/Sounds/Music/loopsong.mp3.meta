@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Sounds/Music/loopsong.mp3.meta
+guid: 787d91928825abb4d9ad7cab58399e1d
+timeCreated: 1472134657
+=======
 guid: 4b721f989899d2b4e9dfcfdf5287d44c
 timeCreated: 1472135040
+>>>>>>> 2190bbd28cb4b7a8259ec88576f2bfb1f3f211f7:Assets/Sounds/Music/loopsong.mp3.meta
 licenseType: Free
 AudioImporter:
   serializedVersion: 6
