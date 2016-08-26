@@ -407,9 +407,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b548b8f04eda8f840a7f02fc8c692db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSound: {fileID: 8300000, guid: d1ea6f70dff3eef4ca25f703cf6ebe37, type: 3}
-  strafeSound: {fileID: 8300000, guid: 9e9f359f4ddd81f4480fa4cd7a300825, type: 3}
-  walkingSource: {fileID: 0}
+  sounds:
+  - {fileID: 8300000, guid: d1ea6f70dff3eef4ca25f703cf6ebe37, type: 3}
+  - {fileID: 8300000, guid: 9e9f359f4ddd81f4480fa4cd7a300825, type: 3}
+  AudioSource: {fileID: 0}
 --- !u!114 &114000014083156978
 MonoBehaviour:
   m_ObjectHideFlags: 1
