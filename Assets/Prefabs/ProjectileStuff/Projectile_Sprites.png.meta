@@ -1,12 +1,13 @@
 fileFormatVersion: 2
 guid: e7e2bf2c0edaa784ba1cff24d6873e83
-timeCreated: 1472120857
+timeCreated: 1472458064
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Projectile_Sprites_0
     21300002: Projectile_Sprites_1
     21300004: Projectile_Sprites_2
+    21300006: Projectile_Sprites_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -86,6 +87,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
+        y: 576
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Projectile_Sprites_3
+      rect:
+        serializedVersion: 2
+        x: 192
         y: 576
         width: 64
         height: 64

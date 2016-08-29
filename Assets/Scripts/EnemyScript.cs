@@ -4,7 +4,8 @@ using System.Collections;
 public class EnemyScript : MonoBehaviour {
 
     public float rotationSpeed = 90f;
-    Transform player;
+   public Transform player;
+    public float speed;
 
 
     void Update()
@@ -12,7 +13,7 @@ public class EnemyScript : MonoBehaviour {
         if (player == null)
         {
             //Fienden hittar spelaren
-           GameObject go = GameObject.Find("Player");
+           GameObject go = GameObject.FindWithTag("Player");
 
             if (go != null)
             {
@@ -32,12 +33,12 @@ public class EnemyScript : MonoBehaviour {
         Quaternion desiredRot = Quaternion.Euler(0, 0, zAngle);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, desiredRot, rotationSpeed * Time.deltaTime);
     }
-    //void FixedUpdate()
-    //{
-    //    float z = Mathf.Atan2((player.transform.position.y - transform.position.y), (player.transform.position.x - transform.position.x)) * Mathf.Rad2Deg - 90;
+    void FixedUpdate()
+    {
+        float z = Mathf.Atan2((player.transform.position.y - transform.position.y), (player.transform.position.x - transform.position.x)) * Mathf.Rad2Deg - 90;
 
-    //    transform.eulerAngles = new Vector3(0, 0, z);
+        transform.eulerAngles = new Vector3(0, 0, z);
 
-    //    GetComponent<Rigidbody2D>().AddForce(gameObject.transform.up * speed);
-    //}
+        GetComponent<Rigidbody2D>().AddForce(gameObject.transform.up * speed);
+    }
 }
