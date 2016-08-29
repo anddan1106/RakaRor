@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyScript : MonoBehaviour {
 
     public float rotationSpeed = 90f;
-    Transform player;
+   public Transform player;
     public float speed;
 
 
@@ -13,7 +13,7 @@ public class EnemyScript : MonoBehaviour {
         if (player == null)
         {
             //Fienden hittar spelaren
-           GameObject go = GameObject.FindWithTag   ("Player");
+           GameObject go = GameObject.FindWithTag("Player");
 
             if (go != null)
             {
