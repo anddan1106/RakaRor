@@ -5,13 +5,17 @@ public class WalkingSound : MonoBehaviour
 {
 
 
-    public AudioClip walkSound;
-    public AudioClip strafeSound;
-    public AudioSource walkingSource;
+    //public AudioClip walkSound;
+    //public AudioClip strafeSound;
+    public AudioClip[] sounds;
+    public GameObject AudioSource;
+    private AudioSource walkingSoundSource;
 
     // Use this for initialization
     void Start()
     {
+        walkingSoundSource = AudioSource.GetComponent<AudioSource>();
+        walkingSoundSource.enabled = true;
 
     }
 
@@ -22,15 +26,15 @@ public class WalkingSound : MonoBehaviour
         var vertical = Input.GetAxis("Vertical");
         var horizontal = Input.GetAxis("Horizontal");
 
-        if (horizontal != 0 && vertical == 0)
+        if (!walkingSoundSource.isPlaying)
         {
-            if (!walkingSource.isPlaying)
-                walkingSource.PlayOneShot(strafeSound);
+            if (GetComponent<Rigidbody2D>().velocity.magnitude >= 0.2)
+                if (horizontal != 0 && vertical == 0)
+                    walkingSoundSource.PlayOneShot(sounds[1]);
+                else if (vertical != 0)
+                    walkingSoundSource.PlayOneShot(sounds[0]);
         }
-        else if (vertical != 0)
-        {
-            if (!walkingSource.isPlaying)
-                walkingSource.PlayOneShot(walkSound);
-        }
+
     }
 }
+
