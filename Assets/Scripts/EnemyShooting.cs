@@ -5,6 +5,8 @@ namespace Assets.Scripts
 {
     class EnemyShooting : MonoBehaviour
     {
+        #region Properties
+
         public Vector3 bulletOffset = new Vector3(0, 0.5f, 0);
 
         public GameObject bulletPrefab;
@@ -13,6 +15,9 @@ namespace Assets.Scripts
         public float fireDelay = 0.50f;
         float cooldownTimer = 0;
 
+        Transform player;
+
+        #endregion
         void Start()
         {
             bulletLayer = gameObject.layer;
@@ -21,9 +26,20 @@ namespace Assets.Scripts
         // Update is called once per frame
         void Update()
         {
+            if (player == null)
+            {
+                //Fienden hittar spelaren
+                GameObject go = GameObject.FindWithTag("Player");
+
+                if (go != null)
+                {
+                    player = go.transform;
+                }
+            }
+
             cooldownTimer -= Time.deltaTime;
 
-            if (cooldownTimer <= 0)
+            if (cooldownTimer <= 0 && player != null && Vector3.Distance(transform.position, player.position) < 4) //Skjuter spelaren inom en viss distans
             {
                 // SHOOT!
                 cooldownTimer = fireDelay;
