@@ -1,7 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: be3907f36ac7d2942b5494dbacf49787
-timeCreated: 1472460309
+timeCreated: 1472461226
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -10,17 +9,6 @@ TextureImporter:
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
-=======
-guid: cb4863fa3a1a16349bda23185ac2365f
-timeCreated: 1472460845
-licenseType: Free
-TextureImporter:
-  fileIDToRecycleName: {}
-  serializedVersion: 2
-  mipmaps:
-    mipMapMode: 0
-    enableMipMap: 0
->>>>>>> 8e573e1d05bfc7479aee48762e0178ac8fcf0a9b
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -39,19 +27,11 @@ TextureImporter:
   cubemapConvolutionSteps: 7
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-<<<<<<< HEAD
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
     aniso: 16
-=======
-  textureFormat: -3
-  maxTextureSize: 2048
-  textureSettings:
-    filterMode: 0
-    aniso: -1
->>>>>>> 8e573e1d05bfc7479aee48762e0178ac8fcf0a9b
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -59,11 +39,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 0
->>>>>>> 8e573e1d05bfc7479aee48762e0178ac8fcf0a9b
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +48,6 @@ TextureImporter:
   spritePixelsToUnits: 100
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-<<<<<<< HEAD
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
@@ -82,27 +57,17 @@ TextureImporter:
       name: weaponSprite_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 612
-        width: 10
-        height: 21
+        x: 17
+        y: 604
+        width: 22
+        height: 31
       alignment: 9
-      pivot: {x: 0.48799935, y: 0.13715181}
+      pivot: {x: 0.5, y: 0.11283825}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
-=======
-  textureType: 5
-  buildTargetSettings: []
-  spriteSheet:
-    serializedVersion: 2
-    sprites: []
-    outline: []
-  spritePackingTag: 
-  userData: tiled2unity
->>>>>>> 8e573e1d05bfc7479aee48762e0178ac8fcf0a9b
   assetBundleName: 
   assetBundleVariant: 
