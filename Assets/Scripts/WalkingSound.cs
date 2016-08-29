@@ -8,15 +8,13 @@ public class WalkingSound : MonoBehaviour
     //public AudioClip walkSound;
     //public AudioClip strafeSound;
     public AudioClip[] sounds;
-    public GameObject AudioSource;
     private AudioSource walkingSoundSource;
 
     // Use this for initialization
     void Start()
     {
-        walkingSoundSource = AudioSource.GetComponent<AudioSource>();
+        walkingSoundSource = GetComponent<AudioSource>();
         walkingSoundSource.enabled = true;
-
     }
 
     // Update is called once per frame
