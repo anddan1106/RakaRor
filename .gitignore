@@ -7,6 +7,6 @@
 !/Assets
 !/ProjectSettings
 
-/Assets/*/*.meta
-/ProjectSettings/*/*.meta
+/Assets/*.meta
+/ProjectSettings/*.meta
 
