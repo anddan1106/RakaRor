@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="64" tileheight="64" nextobjectid="175">
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="64" tileheight="64" nextobjectid="183">
  <tileset firstgid="1" name="floor" tilewidth="64" tileheight="64" tilecount="100" columns="10">
   <image source="../../Sprites/Textures/floorTiles.png" width="640" height="640"/>
  </tileset>
@@ -69,6 +69,13 @@
   <tile id="2">
    <objectgroup draworder="index">
     <object id="10" x="16.8571" y="14.7143" width="33.0714" height="31.2857"/>
+   </objectgroup>
+  </tile>
+  <tile id="3">
+   <objectgroup draworder="index">
+    <object id="1" x="9.375" y="7.25" width="46.1875" height="46.1875">
+     <ellipse/>
+    </object>
    </objectgroup>
   </tile>
  </tileset>
@@ -490,5 +497,13 @@
   <object id="80" gid="401" x="580.693" y="748.078" width="192" height="64" rotation="-179.954"/>
   <object id="81" gid="203" x="328" y="820.667" width="64" height="64"/>
   <object id="174" gid="204" x="3388.67" y="501.333" width="64" height="64"/>
+  <object id="175" gid="204" x="967.811" y="430.949" width="64" height="64" rotation="12.5502"/>
+  <object id="176" gid="204" x="818.613" y="36.9734" width="64" height="64" rotation="21.1387"/>
+  <object id="177" gid="204" x="1247.9" y="87.8601" width="64" height="64" rotation="-136.866"/>
+  <object id="178" gid="204" x="1830.62" y="-25.6111" width="64" height="64" rotation="141.714"/>
+  <object id="179" gid="204" x="1759.31" y="477.481" width="64" height="64" rotation="13.7435"/>
+  <object id="180" gid="202" x="937.057" y="486.05" width="64" height="64" rotation="-25.7196"/>
+  <object id="181" gid="301" x="2370.67" y="392.667" width="64" height="410"/>
+  <object id="182" gid="301" x="2790.67" y="389.333" width="64" height="407.333"/>
  </objectgroup>
 </map>
