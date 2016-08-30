@@ -154,6 +154,11 @@ Prefab:
       propertyPath: invulnPeriod
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012307547822, guid: f1fe28b7f2a3b1848a2a312d36cb4ab2,
+        type: 2}
+      propertyPath: speed
+      value: 25
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114000013903235556, guid: f1fe28b7f2a3b1848a2a312d36cb4ab2, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: f1fe28b7f2a3b1848a2a312d36cb4ab2, type: 2}
