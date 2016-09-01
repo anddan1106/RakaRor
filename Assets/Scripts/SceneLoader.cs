@@ -6,9 +6,13 @@ public class SceneLoader : MonoBehaviour {
 
     public string sceneName;
 
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D obj)
     {
+        if (obj.gameObject.tag=="Player")
+        {
         StartCoroutine(ChangeLevel());
+
+        }
     }
 
     IEnumerator ChangeLevel()

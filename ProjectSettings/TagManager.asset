@@ -7,6 +7,7 @@ TagManager:
   - wall
   - floor
   - object
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - Background
   - Player
   - Enemy
-  - 
+  - NameTag
   - 
   - 
   - 
@@ -49,4 +50,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1661165775
+    locked: 0
+  - name: NameTag
+    uniqueID: 1175203409
     locked: 0

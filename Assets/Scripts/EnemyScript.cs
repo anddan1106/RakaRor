@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyScript : MonoBehaviour {
 
     public float rotationSpeed = 90f;
-   public Transform player;
+   Transform player;
     public float speed;
 
 

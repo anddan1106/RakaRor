@@ -40,6 +40,20 @@ public class DamageHandler : MonoBehaviour
             Destroy(this);
             return;
         }
+       else if (obj.gameObject.tag=="Player")
+        {
+            GameStatus.GetInstance().TakeDmg(1);
+            health--;
+            if (GameStatus.GetInstance().GetHealth()<=0)
+            {
+                Destroy(obj.gameObject);
+            }
+        }
+        else if (obj.gameObject.tag=="Enemy")
+        {
+            GameStatus.GetInstance().AddScore(10);
+            health--;
+        }
         else
         {
             health--;
@@ -47,6 +61,13 @@ public class DamageHandler : MonoBehaviour
             gameObject.layer = 10;
         }
 
+    }
+    void OnGUI()
+    {
+        if (GameStatus.GetInstance().GetHealth() <= 0)
+        {
+            GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 25, 100, 50), "Game Over!");
+        }
     }
 
     void Update()

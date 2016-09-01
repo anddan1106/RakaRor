@@ -62,7 +62,7 @@ GameObject:
   - 114: {fileID: 114000012819596958}
   m_Layer: 10
   m_Name: Spider
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -536,8 +536,8 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011237981934}
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 2
+  m_Mass: 5
+  m_LinearDrag: 1
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_IsKinematic: 0
@@ -554,7 +554,7 @@ PolygonCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
@@ -673,7 +673,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds: []
-  AudioSource: {fileID: 0}
 --- !u!114 &114000011782822002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -685,7 +684,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7013e8f429327aa49b191f2fbddcbde6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shotSound: {fileID: 8300000, guid: 59852afd1afaae14194741fbb020201e, type: 3}
+  shotSound: {fileID: 8300000, guid: efcc446c9c1b75a42aa9125051896efc, type: 3}
   bulletOffset: {x: 0, y: 0.7, z: 0}
   bulletPrefab: {fileID: 0}
   fireDelay: 3
@@ -715,6 +714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationSpeed: 90
+  player: {fileID: 0}
   speed: 2
 --- !u!212 &212000010210494124
 SpriteRenderer:

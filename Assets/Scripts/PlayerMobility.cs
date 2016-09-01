@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerMobility : MonoBehaviour {
+public class PlayerMobility : MonoBehaviour
+{
 
     public float speed;
     Animator anim;
@@ -25,7 +26,10 @@ public class PlayerMobility : MonoBehaviour {
 
     void FixedUpdate()
     {
-
+        if (cam == null)
+        {
+            cam = (Camera)FindObjectOfType(typeof(Camera));
+        }
 
         var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Quaternion rot = Quaternion.LookRotation(transform.position - mousePosition, Vector3.forward);

@@ -13,7 +13,7 @@ public class PlayerSpawner : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        SpawnPlayer();
+       // SpawnPlayer();
     }
 
     void SpawnPlayer()
@@ -43,7 +43,6 @@ public class PlayerSpawner : MonoBehaviour
     {
         if (numLives > 0 || playerInstance != null)
         {
-
             GUI.Label(new Rect(0, 0, 100, 50), "Lives left: " + numLives);
         }
         else
