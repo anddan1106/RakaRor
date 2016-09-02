@@ -15,12 +15,11 @@ public class SerializeGameStatus : MonoBehaviour {
 	
 	}
 
-    void OnTriggerEnter2D(Collider2D obj)
-    {
-        if (obj.gameObject.tag == "Player")
-        {
-            StartCoroutine(GameStatusSenderController.PostScores(GameStatus.GetInstance().GetUserName(), GameStatus.GetInstance().GetScore()));
-           
-        }
-    }
+    //void OnTriggerEnter2D(Collider2D obj)
+    //{
+    //    if (obj.gameObject.tag == "Player")
+    //    {
+    //        StartCoroutine(GameStatusSenderController.PostScores(GameStatus.GetInstance().GetUserName(), GameStatus.GetInstance().GetScore()));
+    //    }
+    //}
 }

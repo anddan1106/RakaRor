@@ -1,29 +1,40 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyScript : MonoBehaviour {
+public class EnemyScript : MonoBehaviour
+{
 
     public float rotationSpeed = 90f;
-   Transform player;
+    public Transform player;
     public float speed;
+
+    void Start()
+    {
+        //Fienden hittar spelaren
+        
+    }
+    bool findPlayer()
+    {
+        var players = GameObject.FindGameObjectsWithTag("Player");
+        GameObject go = null;
+        if (players.Length>0)
+            go = players[Random.Range(0, players.Length)];
+
+        if (go != null)
+        {
+            player = go.transform;
+        }
+        return player != null;
+    }
 
 
     void Update()
     {
-        if (player == null)
-        {
-            //Fienden hittar spelaren
-           GameObject go = GameObject.FindWithTag("Player");
-
-            if (go != null)
-            {
-                player = go.transform;
-            }
-        }
 
         if (player == null)
         {
-            return;
+            if(!findPlayer())
+                return;
         }
 
         Vector3 dir = player.position - transform.position;
@@ -35,6 +46,12 @@ public class EnemyScript : MonoBehaviour {
     }
     void FixedUpdate()
     {
+        if (player == null)
+        {
+            if (!findPlayer())
+                return;
+        }
+
         float z = Mathf.Atan2((player.transform.position.y - transform.position.y), (player.transform.position.x - transform.position.x)) * Mathf.Rad2Deg - 90;
 
         transform.eulerAngles = new Vector3(0, 0, z);

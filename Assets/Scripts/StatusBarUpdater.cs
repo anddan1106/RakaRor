@@ -15,6 +15,6 @@ public class StatusBarUpdater : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Text>().text = GameStatus.GetInstance().GetUserName() +":  " +"Score:" + GameStatus.GetInstance().GetScore() + "  Lives:" + GameStatus.GetInstance().GetHealth();
+        //GetComponent<Text>().text = GameStatus.GetInstance().GetUserName() +":  " +"Score:" + GameStatus.GetInstance().GetScore() + "  Lives:" + GameStatus.GetInstance().GetHealth();
     }
 }

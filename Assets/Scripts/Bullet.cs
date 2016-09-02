@@ -4,19 +4,47 @@ using System.Collections;
 
 class Bullet : MonoBehaviour
 {
+    private int dmg = 1;
+    public GameObject shooter;
+    void Start()
+    {
 
-    void OnTriggerEnter2D(Collider2D collision)
+    }
+    void OnCollisionEnter2D(Collision2D collision)
     {
         GameObject hit = collision.gameObject;
-        Health health = hit.GetComponent<Health>();
 
-        if (health != null)
+
+        if (collision.gameObject.tag == "Player")
         {
-            health.TakeDamage(1);
-            Debug.Log("Du är skjuten trigger");
+            hit.GetComponent<Health>().TakeDamage(dmg);
+            SetupLocalPlayer player = null;
+            if(shooter != null)
+                player = shooter.GetComponent<SetupLocalPlayer>();
+            if (player != null)
+                player.RpcAddScore(dmg);
+
+            Debug.Log("Du är skjuten collision");
         }
-        Destroy(gameObject);
+        else if (collision.gameObject.tag == "Enemy")
+        {
+            hit.GetComponent<EnemyHealth>().TakeDamage(dmg);
+            SetupLocalPlayer player = null;
+            if (shooter != null)
+                player = shooter.GetComponent<SetupLocalPlayer>();
+            if (player != null)
+            {
+                player.RpcAddScore(dmg);
+                Debug.Log(player.score + " : " + dmg);
+            }
+
+
+            Debug.Log("Enemy skjuten collision");
+
+        }
+        Destroy(this.gameObject);
     }
+
 
 }
 

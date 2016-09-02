@@ -51,7 +51,7 @@ public class DamageHandler : MonoBehaviour
         }
         else if (obj.gameObject.tag=="Enemy")
         {
-            GameStatus.GetInstance().AddScore(10);
+            GameStatus.GetInstance().AddScore(100510);
             health--;
         }
         else
@@ -66,7 +66,7 @@ public class DamageHandler : MonoBehaviour
     {
         if (GameStatus.GetInstance().GetHealth() <= 0)
         {
-            GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 25, 100, 50), "Game Over!");
+            GUI.Label(new Rect(Screen.width / 2 - 50, Screen.height / 2 - 25, 100, 50), "You died!");
         }
     }
 

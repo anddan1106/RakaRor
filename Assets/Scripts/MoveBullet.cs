@@ -23,9 +23,9 @@ public class MoveBullet : MonoBehaviour
     void CmdMoveBullet()
     {
         Vector3 pos = transform.position;
-        Vector3 velocity = new Vector3(maxSpeed * Time.deltaTime, 0, 0);
+        Vector3 velocity = new Vector3(Time.deltaTime * maxSpeed, 0, 0);
 
-        pos += transform.rotation * velocity;
+        pos += transform.rotation * velocity*2;
         transform.position = pos;
     }
     void OnCollisionEnter2D()

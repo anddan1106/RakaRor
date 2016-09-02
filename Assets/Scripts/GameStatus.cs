@@ -4,7 +4,7 @@ using System.Collections;
 public class GameStatus : MonoBehaviour {
 
     public int health = 3;
-    public int score = 0;
+    public int score;
     public string userName = "Player";
 
     static GameStatus ThisIsTheOneAndOnlyGameStatus;

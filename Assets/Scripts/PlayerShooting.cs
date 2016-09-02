@@ -24,7 +24,7 @@ public class PlayerShooting : NetworkBehaviour
        
         bulletLayer = gameObject.layer;
         transform.Rotate(0, 0, 0);
-
+        
     }
 
     // Update is called once per frame
@@ -39,22 +39,25 @@ public class PlayerShooting : NetworkBehaviour
         if (Input.GetButton("Fire1") && cooldownTimer <= 0)
         {
             // SHOOT!
-            CmdFire();
+            CmdFire(this.gameObject);
         cooldownTimer = fireDelay;
         }
     }
   
 
     [Command]
-    void CmdFire()
+    void CmdFire(GameObject shooter)
     {
-
-        GetComponent<AudioSource>().PlayOneShot(shotSound);
+        AudioSource source = GetComponent<AudioSource>();
+        var tmpVol = source.volume;
+        source.volume = 0f;
+        source.PlayOneShot(shotSound);
+        source.volume = tmpVol;
 
         Vector3 offset = transform.rotation * bulletOffset;
 
         GameObject bulletGO = (GameObject)Instantiate(bulletPrefab, transform.position + offset, transform.rotation);
-       
+        bulletGO.GetComponent<Bullet>().shooter = shooter;
         bulletGO.SetActive(true);
 
         #region addforcesettet
